@@ -1,0 +1,10004 @@
+{
+  "records": [
+    {
+      "timestamp": "2025-11-04T21:36:20.148824",
+      "traffic": {
+        "n": 14,
+        "s": 14,
+        "e": 12,
+        "w": 12
+      },
+      "phase": "PHASE_NS_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T21:36:20.732457",
+      "traffic": {
+        "n": 14,
+        "s": 14,
+        "e": 12,
+        "w": 12
+      },
+      "phase": "PHASE_NS_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:20.137329",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:20.767273",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:25.429065",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:30.159855",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:31.069084",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:35.546504",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:40.547235",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:45.370784",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:50.247022",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:55.382199",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:32:56.048592",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:00.308753",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:00.979918",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:05.181251",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:05.818631",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:10.182380",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:15.146722",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:15.792508",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:20.530791",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:25.393559",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:30.130610",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:30.801128",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:35.792945",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:40.224572",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:41.024831",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:46.259623",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:50.127918",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:50.849526",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:33:55.553191",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:00.363889",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:01.028371",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:05.444565",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:10.311341",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:15.264304",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:16.040949",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:20.559563",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:25.339872",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:30.262402",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:30.967749",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:35.212037",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:35.914127",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:40.188329",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:40.880487",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:45.348746",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:46.028071",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:50.263820",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:50.935424",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:55.182426",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:34:55.840362",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:00.112088",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:00.784571",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:05.557416",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:10.343484",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:10.974858",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:15.153948",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:15.794575",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:20.472579",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:25.192845",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:25.844964",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:30.068146",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:30.722963",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:35.467525",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:40.205219",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:40.872608",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:45.132493",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:45.914154",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:50.183834",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:50.864925",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:55.172440",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:35:55.996930",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:00.417731",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:05.144536",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:05.838209",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:10.081459",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:10.744458",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:15.472601",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:20.413556",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:25.119860",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:25.838975",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:30.072879",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:30.719398",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:35.425604",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:40.146259",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:40.877062",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:45.261375",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:45.874494",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:50.121419",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:50.796252",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:36:55.506377",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:00.422470",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:05.118806",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:05.743107",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:10.458537",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:15.192200",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:15.919654",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:20.154113",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:20.789732",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:25.521563",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:30.261868",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:30.957857",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:35.163808",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:35.834482",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:40.062703",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:40.713729",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:45.426832",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:50.155415",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:50.808063",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:37:55.536035",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:00.275343",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:00.924393",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:05.152120",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:05.793808",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:10.504900",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:15.269622",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:15.959284",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:20.165976",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:20.810684",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:25.540456",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:30.286755",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:30.929499",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:35.150731",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:35.810758",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:40.532526",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:45.261012",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:45.906927",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:50.123238",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:50.767166",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:38:55.478697",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:00.264888",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:00.904302",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:05.147232",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:05.804714",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:10.531478",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:15.248316",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:15.893343",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:20.118823",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:20.769845",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:25.514366",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:30.227188",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:30.895554",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:35.108179",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:35.756152",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:40.470798",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:45.298867",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:45.944909",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:50.162776",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:50.850246",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:55.081943",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:39:55.717802",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:00.444656",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:05.176306",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:05.829270",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:10.553426",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:15.299955",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:15.940122",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:20.153592",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:20.825016",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:25.072212",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:25.741380",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:30.445897",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:35.203548",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:35.828536",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:40.037895",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:40.720826",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:45.453785",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:50.194644",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:50.851175",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:55.079288",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:40:55.699462",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:00.409826",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:01.036488",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:05.283878",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:05.967644",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:10.204630",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:10.887074",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:15.096699",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:15.727843",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:20.469293",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:25.249223",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:25.903658",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:30.132255",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:30.781576",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:35.479368",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:40.235796",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:40.890224",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:45.083530",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:45.742761",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:50.474549",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:55.203888",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:41:55.844190",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:00.581338",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:05.333745",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:05.992646",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:10.200782",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:10.831577",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:15.067900",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:15.729418",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:20.455227",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:25.175502",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:25.830057",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:30.049904",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:30.673297",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:35.401204",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:40.259511",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:40.902090",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:45.235169",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:45.905372",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:50.389730",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:51.021021",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:55.220206",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:42:55.898409",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:00.223435",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:00.905045",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:05.137494",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:05.808925",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:10.525745",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:15.286393",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:15.931572",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:20.140327",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:20.987512",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:25.206507",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:25.848650",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:30.100484",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:30.746530",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:35.430676",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:40.139493",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:41.023621",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:45.313671",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:46.030676",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:50.246385",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:50.943142",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:55.146220",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:43:55.829931",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:00.065116",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:00.730109",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:05.447808",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:10.177727",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:10.826151",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:15.292505",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:15.966532",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:20.199477",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:20.847563",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:25.069242",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:25.715983",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:30.457064",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:35.176723",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:35.818107",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:40.227914",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:40.906672",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:45.109759",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:45.741347",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:50.543285",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:55.230400",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:44:55.880495",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:00.106883",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:00.733295",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:05.481406",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:10.225258",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:11.046648",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:15.387803",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:20.187305",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:20.869926",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:25.049244",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:25.714287",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:30.495080",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:35.376353",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:36.050071",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:40.327984",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:40.936825",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:45.187528",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:45.891095",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:50.139977",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:50.821506",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:55.337756",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:45:55.989524",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:00.255661",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:01.027824",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:05.275824",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:05.917292",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:10.109252",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:10.755833",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:15.489528",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:20.269999",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:20.934486",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:25.175399",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:25.850728",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:30.459161",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:35.165137",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:35.900993",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:40.093467",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:40.743339",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:45.429736",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:50.192218",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:50.871079",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:55.055807",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:46:55.708108",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:00.519114",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:05.208503",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:06.065134",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:10.307693",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:10.969199",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:15.177058",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:15.840100",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:20.094232",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:20.771015",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:25.517997",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:30.249889",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:30.902362",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:35.108812",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:35.750165",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:40.481204",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:45.214118",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:45.865098",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:50.074349",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:50.717238",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:47:55.480665",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:00.202163",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:00.841027",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:05.068134",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:05.717406",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:10.449890",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:15.180574",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:15.843126",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:20.097121",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:20.743589",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:25.467170",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:30.166203",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:30.819011",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:35.524883",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:40.244511",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:40.928309",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:45.142668",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:45.782803",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:50.544719",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:55.283721",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:48:55.942018",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:00.338490",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:00.996022",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:05.251444",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:10.185080",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:10.910052",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:15.190261",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:15.898696",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:20.153880",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:20.814887",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:25.536810",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:30.285403",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:30.980600",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:35.189918",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:35.830691",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:40.070279",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:40.804368",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:45.517508",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:50.265413",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:50.928088",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:55.185643",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:49:55.842075",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:00.091443",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:00.732813",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:05.485639",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:10.222365",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:10.907950",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:15.141521",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:15.801375",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:20.516784",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:25.264393",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:25.942572",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:30.208529",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:30.853921",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:35.062083",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:35.710425",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:40.596450",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:45.336739",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:46.007597",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:50.260719",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:50.938801",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:55.188544",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:50:55.826631",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:00.544983",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:05.299276",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:05.928808",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:10.132872",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:10.781659",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:15.491046",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:20.211395",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:20.852741",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:25.083771",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:25.740717",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:30.468394",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:35.182642",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:35.960958",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:40.183358",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:40.835658",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:45.059029",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:45.727643",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:50.455541",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:55.177725",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:51:55.849253",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:00.099965",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:00.746312",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:05.453354",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:10.201604",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:10.984752",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:15.169921",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:15.796554",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:20.553103",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:25.244526",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:25.901321",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:30.117645",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:30.773736",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:35.768341",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:40.205055",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:40.938967",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:45.318694",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:45.999198",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:50.319812",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:50.957168",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:55.173577",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:52:55.818312",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:00.583066",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:05.273244",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:05.919774",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:10.223049",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:10.889812",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:15.126678",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:15.871540",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:20.087668",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:20.730197",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:25.479420",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:30.223738",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:30.850733",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:35.072876",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:35.754828",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:40.461207",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:45.204765",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:45.876538",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:50.164223",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:50.831636",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:55.081891",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:53:55.732130",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:00.447488",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:05.150363",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:05.777584",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:10.503533",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:15.217905",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:15.868631",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:20.103987",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:20.748407",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:25.461715",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:30.284475",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:30.909665",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:35.110208",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:35.743990",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:40.499242",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:45.226208",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:45.878954",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:50.124210",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:50.775502",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:54:55.528664",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:00.305516",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:00.951507",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:05.170709",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:05.821571",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:10.037302",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:10.710587",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:15.440340",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:20.454761",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:25.252099",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:25.967448",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:30.211769",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:30.815361",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:35.509563",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:40.223668",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:40.865487",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:45.085557",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:45.735558",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:50.475635",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:55.206234",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:55:55.834558",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:00.537241",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:05.248453",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:05.892351",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:10.116134",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:10.772329",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:15.505480",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:20.237142",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:20.885230",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:25.102443",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:25.833999",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:30.067750",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:30.744856",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:35.480940",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:40.214507",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:40.897417",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:45.103505",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-04T22:56:45.778620",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:30.089809",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:30.676663",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:35.383869",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:35.953205",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:40.075718",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:40.649163",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:45.322834",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:45.921199",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:50.060892",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:50.636325",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:55.290568",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:37:55.872925",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:00.518155",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:05.142123",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:05.694384",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:10.332499",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:10.896804",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:15.048576",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:15.613416",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:20.246665",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:20.796656",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:25.494024",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:30.197623",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:30.775385",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:35.462589",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:40.142524",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:40.712543",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:45.376775",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:45.941499",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:50.112424",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:50.713325",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:55.396328",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:38:55.983859",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:00.128624",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:00.682101",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:05.304204",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:05.860216",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:10.497027",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:15.154483",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:15.708416",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:20.324250",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:20.873948",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:25.496010",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:30.106969",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:30.657107",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:35.276195",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:35.826440",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:40.445078",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:40.986427",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:45.119580",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:45.667305",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:50.301968",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:50.854057",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:39:55.530257",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:00.169811",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:00.720701",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:05.378550",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:05.941443",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:10.061065",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:10.612848",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:15.260139",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:15.843286",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:20.491722",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:25.140802",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:25.684780",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:30.311902",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:30.853826",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:35.489585",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:40.187764",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:40.732978",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:45.376984",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:45.955549",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:50.069231",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:50.630599",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:55.325883",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:40:55.944965",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:00.091359",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:00.654806",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:05.281565",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:05.833106",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:10.703297",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:15.498333",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:20.172222",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:20.724960",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:25.372545",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:25.919641",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:30.175548",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:30.806095",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:35.473244",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:40.238584",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:40.824864",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:45.601816",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:50.322397",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:50.871989",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:41:55.538498",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:00.370608",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:01.018090",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:05.171594",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:05.734753",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:10.395032",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:10.960303",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:15.142013",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:15.734095",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:20.389162",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:20.960353",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:25.154410",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:25.717475",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:30.357631",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:30.980583",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:35.115051",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:35.706954",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:40.395396",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:40.976326",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:45.115947",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:45.678233",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:50.319574",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:50.867409",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:42:55.504133",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:00.173810",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:00.740073",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:05.426033",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:06.009265",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:10.265478",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:10.853470",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:15.517315",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:20.172794",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:20.773975",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:25.503487",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:30.223520",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:30.785767",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:35.436811",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:36.021647",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:40.169412",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:40.724235",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:45.430725",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:45.987249",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:50.122759",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:50.686267",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:55.374453",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:43:55.975305",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:00.093309",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:00.666849",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:05.351129",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:05.921373",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:10.077732",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:10.668607",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:15.330634",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:15.894173",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:20.497716",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:25.167259",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:25.734415",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:30.391559",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:31.035705",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:35.256670",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:35.857298",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:40.086668",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:40.687214",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:45.376409",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:45.972823",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:50.171526",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:50.771613",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:44:55.488229",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:00.188177",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:00.804707",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:05.545996",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:10.283934",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:10.853759",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:15.081046",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:15.694936",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:20.405258",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:21.008730",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:25.224445",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:25.821006",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:30.537657",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:35.274312",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:35.854142",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:40.070797",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:40.670960",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:45.424299",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:46.018235",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:50.222425",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:50.795481",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:55.037138",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:45:55.660702",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:00.396529",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:00.973603",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:05.158344",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:05.768260",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:10.443518",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:11.002189",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:15.204771",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:15.866998",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:20.058901",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:20.668710",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:25.416738",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:26.021523",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:30.201632",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:30.785230",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:35.484039",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:40.225518",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:40.801006",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:45.483913",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:50.200496",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:50.806214",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:46:55.508495",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:00.257178",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:00.869303",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:05.551449",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:10.271948",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:10.875135",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:15.052986",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:15.636695",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:20.352876",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:20.921109",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:25.116418",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:25.699040",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:30.378002",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:30.969347",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:35.176676",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:35.734332",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:40.375544",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:40.966678",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:45.151541",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:45.771178",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:50.492037",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:55.221771",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:47:55.838825",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:00.568290",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:05.282376",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:05.874659",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:10.083550",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:10.690148",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:15.401024",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:15.987865",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:20.159222",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:20.735332",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:25.450441",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:30.145618",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:30.754795",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:35.465558",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:40.167359",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:40.752009",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:45.434011",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:50.188226",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:50.784025",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:48:55.515932",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:00.150470",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:00.716307",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:05.364718",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:05.936831",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:10.100797",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:10.700320",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:15.371278",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:15.941514",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:20.098447",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:20.668114",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:25.350202",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:25.948331",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:30.177032",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:30.794005",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:35.536159",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:40.290042",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:40.864409",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:45.085867",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:45.683209",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:50.415967",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:50.986835",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:55.173696",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:49:55.783262",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:00.516437",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:05.241800",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:05.849730",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:10.053431",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:10.630120",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:15.315795",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:15.896732",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:20.107225",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:20.702573",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:25.430582",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:30.196859",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:30.781955",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:35.499326",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:40.231692",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:40.849191",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:45.554053",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:50.269987",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:50.862858",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:55.054798",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:50:55.633446",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:00.312462",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:00.908443",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:05.065170",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:05.645929",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:10.334403",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:10.928672",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:15.120906",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:15.695252",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:20.416044",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:21.012740",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:25.218152",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:25.814139",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:30.495564",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:35.244935",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:35.864533",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:40.080914",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:40.683822",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:45.380553",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:45.997492",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:50.253912",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:50.835345",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:51:55.546569",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:00.246239",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:00.852262",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:05.085922",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:05.687202",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:10.396839",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:11.013279",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:15.253030",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:15.863300",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:20.080085",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:20.755374",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:25.453153",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:30.134080",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:30.728974",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:35.405653",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:35.988051",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:40.163477",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:40.743984",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:45.396061",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:45.948193",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:50.058538",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:50.657382",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:55.345993",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:52:55.938487",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:00.065777",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:00.657660",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:05.346042",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:05.945045",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:10.077152",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:10.646543",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:15.311622",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:15.881493",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:20.530485",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:25.224070",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:25.780439",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:30.404232",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:30.968913",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:35.142983",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:35.740903",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:40.433702",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:40.983758",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:45.113800",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:45.694639",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:50.397656",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:50.984940",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:55.114800",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:53:55.687327",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:00.316313",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:00.888601",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:05.050604",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:05.598063",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:10.232201",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:10.798892",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:15.421129",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:16.025447",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:20.166609",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:20.722927",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:25.332611",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:25.875967",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:30.497496",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:35.130997",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:35.688243",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:40.298308",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:40.872580",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:45.480938",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:50.120355",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:50.667156",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:55.278216",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:54:55.872370",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:00.029565",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:00.590136",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:05.247458",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:05.812637",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:10.433550",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:11.013417",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:15.170467",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:15.746547",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:20.413566",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:20.975376",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:25.169300",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:25.789689",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:30.421200",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:30.974707",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:35.100289",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:35.663459",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:40.292175",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:40.842456",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:45.492381",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:50.157301",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:50.726225",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:55.346107",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:55:55.906993",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:00.051856",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:00.612330",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:05.233169",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:05.806910",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:10.496813",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:15.173664",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:15.814569",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:20.522421",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:25.135325",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:25.707808",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:30.492694",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:35.174344",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:35.740715",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:40.367043",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:40.941990",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:45.095555",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:45.656880",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:50.290132",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:50.856904",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:56:55.525796",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:00.198304",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:00.776895",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:05.444226",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:05.992198",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:10.103159",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:10.644110",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:15.295680",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:15.874523",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:20.064776",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:20.613365",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:25.256550",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:25.819269",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:30.467207",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:35.162970",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:35.745528",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:40.415408",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:40.992820",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:45.152009",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:45.734523",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:50.430197",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:50.991407",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:55.153601",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:57:55.722986",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:00.452954",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:05.114665",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:05.673844",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:10.304528",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:10.887109",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:15.580712",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:20.198460",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:20.742732",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:25.440313",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:26.017512",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:30.190484",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:30.741468",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:35.372637",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:35.954825",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:40.100043",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:40.670602",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:45.355483",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:45.938749",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:50.105848",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:50.708601",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:58:55.441311",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:00.137657",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:00.711620",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:05.362392",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:05.930401",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:10.070755",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:10.637405",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:15.289938",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:15.870679",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:20.540638",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:25.222930",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:25.785997",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:30.420697",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:30.977420",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:35.138699",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:35.730219",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:40.389547",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:40.943215",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:45.072821",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:45.640321",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:50.330777",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:50.910888",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:55.077030",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T11:59:55.638702",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:00.271987",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:00.842905",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:05.506724",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:10.169809",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:10.794197",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:15.462991",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:20.157073",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "DECIDING"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:20.739428",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:25.471310",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_YELLOW"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:30.289482",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:31.268907",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_EW_GREEN"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:35.031478",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    },
+    {
+      "timestamp": "2025-11-05T12:00:35.622032",
+      "traffic": {
+        "n": 8,
+        "s": 8,
+        "e": 21,
+        "w": 21
+      },
+      "phase": "PHASE_ALL_RED"
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTraffic AI - Our Revolutionary Solution</title>
+    <link href="static/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .solution-container {
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+
+        .hero-solution {
+            text-align: center;
+            padding: 4rem 0;
+            background: linear-gradient(135deg, var(--purple-main), var(--purple-dark));
+            color: white;
+            margin-bottom: 4rem;
+            border-radius: var(--radius);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-solution::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            animation: gridMove 10s linear infinite;
+        }
+
+        @keyframes gridMove {
+            0% { transform: translateX(0) translateY(0); }
+            100% { transform: translateX(10px) translateY(10px); }
+        }
+
+        .solution-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .solution-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .ai-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .ai-pulse {
+            width: 12px;
+            height: 12px;
+            background: #2ecc71;
+            border-radius: 50%;
+            animation: aiPulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes aiPulse {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.3); }
+        }
+
+        .solution-overview {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin: 4rem 0;
+            align-items: center;
+        }
+
+        .overview-content {
+            background: var(--bg-card);
+            padding: 3rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .overview-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--purple-dark);
+            margin-bottom: 1.5rem;
+        }
+
+        .overview-text {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .overview-features {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .feature-check {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem;
+            background: rgba(155,91,255,0.05);
+            border-radius: 8px;
+            border: 1px solid var(--border-soft);
+        }
+
+        .check-icon {
+            width: 24px;
+            height: 24px;
+            background: var(--purple-main);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .overview-visual {
+            position: relative;
+            height: 400px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            overflow: hidden;
+        }
+
+        .intersection-demo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200px;
+            height: 200px;
+            background: #2c3e50;
+            border-radius: 20px;
+        }
+
+        .demo-road-ns, .demo-road-ew {
+            position: absolute;
+            background: #34495e;
+        }
+
+        .demo-road-ns {
+            width: 60px;
+            height: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .demo-road-ew {
+            width: 100%;
+            height: 60px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .demo-traffic-light {
+            position: absolute;
+            width: 20px;
+            height: 60px;
+            background: rgba(0,0,0,0.8);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            padding: 3px;
+            z-index: 10;
+        }
+
+        .demo-tl-1 { top: 10px; left: 50%; transform: translateX(-50%); }
+        .demo-tl-2 { bottom: 10px; left: 50%; transform: translateX(-50%); }
+        .demo-tl-3 { right: 10px; top: 50%; transform: translateY(-50%); }
+        .demo-tl-4 { left: 10px; top: 50%; transform: translateY(-50%); }
+
+        .demo-light {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.3);
+            transition: all 0.5s ease;
+        }
+
+        .demo-light.active {
+            box-shadow: 0 0 10px currentColor;
+        }
+
+        .demo-light.red.active { background: #e74c3c; color: #e74c3c; }
+        .demo-light.yellow.active { background: #f1c40f; color: #f1c40f; }
+        .demo-light.green.active { background: #2ecc71; color: #2ecc71; }
+
+        .ai-brain {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--purple-main), var(--purple-dark));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            animation: brainPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes brainPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); box-shadow: 0 0 20px rgba(155,91,255,0.6); }
+        }
+
+        .data-streams {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+        }
+
+        .data-stream {
+            position: absolute;
+            width: 2px;
+            height: 30px;
+            background: linear-gradient(to bottom, var(--purple-main), transparent);
+            animation: dataFlow 3s linear infinite;
+        }
+
+        @keyframes dataFlow {
+            0% { opacity: 0; transform: translateY(-10px); }
+            20% { opacity: 1; }
+            80% { opacity: 1; }
+            100% { opacity: 0; transform: translateY(40px); }
+        }
+
+        .stream-1 { top: 10%; left: 20%; animation-delay: 0s; }
+        .stream-2 { top: 15%; left: 80%; animation-delay: 0.5s; }
+        .stream-3 { top: 70%; left: 25%; animation-delay: 1s; }
+        .stream-4 { top: 75%; left: 75%; animation-delay: 1.5s; }
+
+        .how-it-works {
+            margin: 5rem 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--purple-dark);
+            margin-bottom: 3rem;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .step-card {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .step-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-heavy);
+            border-color: var(--purple-main);
+        }
+
+        .step-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(155,91,255,0.1), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .step-card:hover::before {
+            left: 100%;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: var(--gradient-main);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin: 0 auto 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .step-description {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .benefits-section {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            padding: 3rem;
+            margin: 4rem 0;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: rgba(155,91,255,0.05);
+            border-radius: 12px;
+            border: 1px solid var(--border-soft);
+            transition: all 0.3s ease;
+        }
+
+        .benefit-item:hover {
+            background: rgba(155,91,255,0.1);
+            transform: translateY(-4px);
+        }
+
+        .benefit-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--gradient-main);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .benefit-content h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .benefit-content p {
+            color: var(--text-secondary);
+            line-height: 1.5;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        .demo-cta {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 3rem;
+            background: linear-gradient(135deg, var(--purple-main), var(--purple-dark));
+            border-radius: var(--radius);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .demo-cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            animation: ctaShimmer 3s ease-in-out infinite;
+        }
+
+        @keyframes ctaShimmer {
+            0%, 100% { transform: translateX(-100%) translateY(-100%); }
+            50% { transform: translateX(100%) translateY(100%); }
+        }
+
+        .cta-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-text {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-button {
+            background: white;
+            color: var(--purple-dark);
+            padding: 1rem 2rem;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--purple-dark);
+        }
+
+        .cta-button.secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .cta-button.secondary:hover {
+            background: white;
+            color: var(--purple-dark);
+        }
+
+        @media (max-width: 768px) {
+            .solution-title {
+                font-size: 2.5rem;
+            }
+            
+            .solution-overview {
+                grid-template-columns: 1fr;
+            }
+            
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">🚦 SmartTraffic AI</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="solution.html" class="active">Solution</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="tech.html">Tech Stack</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="solution-container">
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="hero-solution">
+                <div class="ai-badge">
+                    <div class="ai-pulse"></div>
+                    AI-Powered Traffic Intelligence
+                </div>
+                <h1 class="solution-title">The SmartTraffic Revolution</h1>
+                <p class="solution-subtitle">Our adaptive AI system transforms traffic management with real-time optimization, emergency prioritization, and predictive intelligence that reduces congestion by up to 60%.</p>
+            </div>
+
+            <!-- Solution Overview -->
+            <div class="solution-overview">
+                <div class="overview-content">
+                    <h2 class="overview-title">🧠 Intelligent Traffic Control</h2>
+                    <p class="overview-text">SmartTraffic AI replaces outdated fixed-timer systems with dynamic, data-driven decision making. Our system analyzes traffic patterns every 2 seconds and adjusts signal timing in real-time.</p>
+                    
+                    <div class="overview-features">
+                        <div class="feature-check">
+                            <div class="check-icon">✓</div>
+                            <span>Real-time traffic analysis every 2 seconds</span>
+                        </div>
+                        <div class="feature-check">
+                            <div class="check-icon">✓</div>
+                            <span>Dynamic green light timing based on demand</span>
+                        </div>
+                        <div class="feature-check">
+                            <div class="check-icon">✓</div>
+                            <span>Emergency vehicle priority override</span>
+                        </div>
+                        <div class="feature-check">
+                            <div class="check-icon">✓</div>
+                            <span>Predictive congestion management</span>
+                        </div>
+                        <div class="feature-check">
+                            <div class="check-icon">✓</div>
+                            <span>Multi-intersection coordination</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview-visual">
+                    <div class="ai-brain">🧠</div>
+                    
+                    <div class="data-streams">
+                        <div class="data-stream stream-1"></div>
+                        <div class="data-stream stream-2"></div>
+                        <div class="data-stream stream-3"></div>
+                        <div class="data-stream stream-4"></div>
+                    </div>
+                    
+                    <div class="intersection-demo">
+                        <div class="demo-road-ns"></div>
+                        <div class="demo-road-ew"></div>
+                        
+                        <div class="demo-traffic-light demo-tl-1">
+                            <div class="demo-light red"></div>
+                            <div class="demo-light yellow"></div>
+                            <div class="demo-light green active"></div>
+                        </div>
+                        <div class="demo-traffic-light demo-tl-2">
+                            <div class="demo-light red"></div>
+                            <div class="demo-light yellow"></div>
+                            <div class="demo-light green active"></div>
+                        </div>
+                        <div class="demo-traffic-light demo-tl-3">
+                            <div class="demo-light red active"></div>
+                            <div class="demo-light yellow"></div>
+                            <div class="demo-light green"></div>
+                        </div>
+                        <div class="demo-traffic-light demo-tl-4">
+                            <div class="demo-light red active"></div>
+                            <div class="demo-light yellow"></div>
+                            <div class="demo-light green"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- How It Works -->
+            <div class="how-it-works">
+                <h2 class="section-title">🔄 How SmartTraffic AI Works</h2>
+                
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3 class="step-title">Data Collection</h3>
+                        <p class="step-description">Sensors continuously monitor vehicle count, speed, and density at each intersection approach in real-time.</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3 class="step-title">AI Analysis</h3>
+                        <p class="step-description">Machine learning algorithms analyze traffic patterns, predict congestion, and calculate optimal timing strategies.</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3 class="step-title">Dynamic Optimization</h3>
+                        <p class="step-description">Signal timing adjusts automatically based on demand, prioritizing high-traffic directions and emergency vehicles.</p>
+                    </div>
+                    
+                    <div class="step-card">
+                        <div class="step-number">4</div>
+                        <h3 class="step-title">Network Coordination</h3>
+                        <p class="step-description">Multiple intersections communicate to create "green waves" and prevent downstream backup.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefits -->
+            <div class="benefits-section">
+                <h2 class="section-title">🎯 Proven Benefits</h2>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">📈</div>
+                        <div class="benefit-content">
+                            <h4>60% Congestion Reduction</h4>
+                            <p>Dramatically reduce traffic jams through intelligent timing and predictive management.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🚨</div>
+                        <div class="benefit-content">
+                            <h4>Emergency Response Priority</h4>
+                            <p>Instantly clear paths for ambulances, fire trucks, and police vehicles to save lives.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">💰</div>
+                        <div class="benefit-content">
+                            <h4>$87B Annual Savings</h4>
+                            <p>Eliminate billions in economic losses from reduced productivity and fuel waste.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">🌱</div>
+                        <div class="benefit-content">
+                            <h4>29% Emission Reduction</h4>
+                            <p>Cut CO₂ emissions by reducing vehicle idling and stop-and-go traffic patterns.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">⚡</div>
+                        <div class="benefit-content">
+                            <h4>Real-time Adaptation</h4>
+                            <p>Respond instantly to accidents, events, and changing traffic conditions.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-item">
+                        <div class="benefit-icon">📊</div>
+                        <div class="benefit-content">
+                            <h4>Data-Driven Insights</h4>
+                            <p>Generate detailed analytics to improve urban planning and infrastructure decisions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Demo CTA -->
+            <div class="demo-cta">
+                <h3 class="cta-title">Experience the Future Today</h3>
+                <p class="cta-text">See SmartTraffic AI in action with our interactive demo featuring real-time traffic simulation and emergency override capabilities.</p>
+                <div class="cta-buttons">
+                    <a href="demo.html" class="cta-button">🎯 View Live Demo</a>
+                    <a href="features.html" class="cta-button secondary">📋 Explore Features</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="static/script.js"></script>
+    <script>
+        // Demo intersection animation
+        function animateIntersection() {
+            const lights = document.querySelectorAll('.demo-light');
+            let currentPhase = 'NS';
+            
+            setInterval(() => {
+                // Clear all lights
+                lights.forEach(light => light.classList.remove('active'));
+                
+                if (currentPhase === 'NS') {
+                    // North-South green
+                    document.querySelector('.demo-tl-1 .green').classList.add('active');
+                    document.querySelector('.demo-tl-2 .green').classList.add('active');
+                    document.querySelector('.demo-tl-3 .red').classList.add('active');
+                    document.querySelector('.demo-tl-4 .red').classList.add('active');
+                    currentPhase = 'EW';
+                } else {
+                    // East-West green
+                    document.querySelector('.demo-tl-1 .red').classList.add('active');
+                    document.querySelector('.demo-tl-2 .red').classList.add('active');
+                    document.querySelector('.demo-tl-3 .green').classList.add('active');
+                    document.querySelector('.demo-tl-4 .green').classList.add('active');
+                    currentPhase = 'NS';
+                }
+            }, 3000);
+        }
+
+        // Start animation when page loads
+        document.addEventListener('DOMContentLoaded', animateIntersection);
+
+        // Animate step cards on scroll
+        const stepObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.transform = 'translateY(0)';
+                        entry.target.style.opacity = '1';
+                    }, index * 200);
+                }
+            });
+        });
+
+        document.querySelectorAll('.step-card').forEach(card => {
+            card.style.transform = 'translateY(50px)';
+            card.style.opacity = '0';
+            card.style.transition = 'all 0.6s ease';
+            stepObserver.observe(card);
+        });
+    </script>
+</body>
+</html>

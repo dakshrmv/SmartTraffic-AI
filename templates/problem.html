@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTraffic AI - The Problem We Solve</title>
+    <link href="static/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .problem-container {
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+
+        .hero-problem {
+            text-align: center;
+            padding: 4rem 0;
+            background: var(--bg-card);
+            margin-bottom: 4rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-problem::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(155,91,255,0.05) 50%, transparent 70%);
+            animation: shimmer 4s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { transform: translateX(-100%); }
+            50% { transform: translateX(100%); }
+        }
+
+        .problem-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .problem-subtitle {
+            font-size: 1.3rem;
+            color: var(--text-secondary);
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .stats-highlight {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            padding: 2.5rem;
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            text-align: center;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(155,91,255,0.1), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .stat-card:hover::before {
+            left: 100%;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-heavy);
+            border-color: var(--purple-main);
+        }
+
+        .stat-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--purple-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .problem-card {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            overflow: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .problem-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-heavy);
+        }
+
+        .problem-header {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, var(--purple-light), var(--purple-soft));
+            border-bottom: 1px solid var(--border-soft);
+        }
+
+        .problem-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .problem-card-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .problem-card-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .problem-body {
+            padding: 1.5rem;
+        }
+
+        .problem-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .problem-list li {
+            padding: 0.75rem 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            border-bottom: 1px solid rgba(155,91,255,0.1);
+        }
+
+        .problem-list li:last-child {
+            border-bottom: none;
+        }
+
+        .problem-bullet {
+            color: var(--purple-main);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .urgency-banner {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 2rem;
+            border-radius: var(--radius);
+            text-align: center;
+            margin: 3rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .urgency-banner::before {
+            content: '⚠️';
+            position: absolute;
+            font-size: 5rem;
+            opacity: 0.1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .urgency-title {
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .urgency-text {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .impact-visualization {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            padding: 2rem;
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        .impact-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 2rem;
+        }
+
+        .impact-bars {
+            display: grid;
+            gap: 1.5rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .impact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .impact-label {
+            min-width: 140px;
+            font-weight: 600;
+            color: var(--text-main);
+            text-align: left;
+        }
+
+        .impact-bar {
+            flex: 1;
+            height: 20px;
+            background: rgba(155,91,255,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .impact-fill {
+            height: 100%;
+            border-radius: 10px;
+            transition: width 2s ease-out;
+            position: relative;
+        }
+
+        .impact-fill::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.3) 50%, transparent 70%);
+            animation: slideShine 2s ease-in-out infinite;
+        }
+
+        @keyframes slideShine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(200%); }
+        }
+
+        .impact-cost { background: linear-gradient(45deg, #e74c3c, #c0392b); }
+        .impact-time { background: linear-gradient(45deg, #f39c12, #e67e22); }
+        .impact-pollution { background: linear-gradient(45deg, #95a5a6, #7f8c8d); }
+        .impact-emergency { background: linear-gradient(45deg, #8e44ad, #7d3c98); }
+
+        .impact-value {
+            margin-left: 1rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            min-width: 60px;
+        }
+
+        .solution-cta {
+            text-align: center;
+            margin-top: 4rem;
+            padding: 3rem;
+            background: linear-gradient(135deg, var(--purple-main), var(--purple-dark));
+            border-radius: var(--radius);
+            color: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .solution-cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            animation: ctaShimmer 3s ease-in-out infinite;
+        }
+
+        @keyframes ctaShimmer {
+            0%, 100% { transform: translateX(-100%) translateY(-100%); }
+            50% { transform: translateX(100%) translateY(100%); }
+        }
+
+        .cta-title {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-text {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-button {
+            background: white;
+            color: var(--purple-dark);
+            padding: 1rem 2.5rem;
+            border-radius: var(--radius);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            display: inline-block;
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            color: var(--purple-dark);
+        }
+
+        @media (max-width: 768px) {
+            .problem-title {
+                font-size: 2.5rem;
+            }
+            
+            .stats-highlight {
+                grid-template-columns: 1fr;
+            }
+            
+            .problems-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .impact-item {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.5rem;
+            }
+            
+            .impact-label {
+                min-width: auto;
+                text-align: center;
+            }
+        }
+
+        /* Counter Animation */
+        .animate-counter {
+            animation: countUp 2s ease-out forwards;
+        }
+
+        @keyframes countUp {
+            from { transform: scale(0.5); opacity: 0; }
+            to { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">🚦 SmartTraffic AI</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="problem.html" class="active">Problem</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="tech.html">Tech Stack</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="problem-container">
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="hero-problem">
+                <h1 class="problem-title">The Traffic Crisis</h1>
+                <p class="problem-subtitle">Modern cities are choking on outdated traffic systems. Every day, millions of hours and billions of dollars are lost to preventable congestion.</p>
+            </div>
+
+            <!-- Critical Statistics -->
+            <div class="stats-highlight">
+                <div class="stat-card">
+                    <span class="stat-icon">💰</span>
+                    <div class="stat-number animate-counter" data-target="87">87 </div>
+                    <div class="stat-label">Lost billion dollars annually in the US alone due to traffic congestion</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">⏰</span>
+                    <div class="stat-number animate-counter" data-target="54">54</div>
+                    <div class="stat-label">Hours wasted per driver annually in major cities</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">🚨</span>
+                    <div class="stat-number animate-counter" data-target="4">4 min</div>
+                    <div class="stat-label">Average delay for emergency vehicles at intersections</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-icon">🏭</span>
+                    <div class="stat-number animate-counter" data-target="29">29%</div>
+                    <div class="stat-label">Of urban CO₂ emissions from traffic congestion</div>
+                </div>
+            </div>
+
+            <!-- Core Problems -->
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-header">
+                        <span class="problem-icon">🚗</span>
+                        <h3 class="problem-card-title">Outdated Fixed-Time Signals</h3>
+                        <p class="problem-card-subtitle">Static timing systems ignore real-time conditions</p>
+                    </div>
+                    <div class="problem-body">
+                        <ul class="problem-list">
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Traffic lights run on 1960s-era technology with pre-programmed timers</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>No adaptation to actual traffic demand or flow patterns</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Same timing during rush hour as 3 AM with zero traffic</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Massive inefficiencies during special events or accidents</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-header">
+                        <span class="problem-icon">🚑</span>
+                        <h3 class="problem-card-title">Emergency Vehicle Delays</h3>
+                        <p class="problem-card-subtitle">Life-threatening delays at intersections</p>
+                    </div>
+                    <div class="problem-body">
+                        <ul class="problem-list">
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Ambulances stuck at red lights during medical emergencies</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Fire trucks delayed while buildings burn</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Police response times increased by intersection delays</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Every second counts - current systems cost lives</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-header">
+                        <span class="problem-icon">🏭</span>
+                        <h3 class="problem-card-title">Environmental Impact</h3>
+                        <p class="problem-card-subtitle">Massive pollution from idling vehicles</p>
+                    </div>
+                    <div class="problem-body">
+                        <ul class="problem-list">
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Idling cars at red lights burn fuel and emit CO₂ unnecessarily</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Stop-and-go traffic increases emissions by up to 40%</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Air quality deteriorates near congested intersections</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Climate goals impossible with current traffic inefficiency</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="problem-card">
+                    <div class="problem-header">
+                        <span class="problem-icon">📊</span>
+                        <h3 class="problem-card-title">Economic Losses</h3>
+                        <p class="problem-card-subtitle">Billions wasted on preventable delays</p>
+                    </div>
+                    <div class="problem-body">
+                        <ul class="problem-list">
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Lost productivity from employees stuck in traffic</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Higher transportation costs for goods and services</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Increased fuel consumption and vehicle maintenance costs</span>
+                            </li>
+                            <li>
+                                <span class="problem-bullet">•</span>
+                                <span>Reduced quality of life and increased stress levels</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Urgency Banner -->
+            <div class="urgency-banner">
+                <h3 class="urgency-title">The Time for Change is NOW</h3>
+                <p class="urgency-text">Every day we delay implementing smart traffic solutions, we lose millions in economic value, harm the environment, and potentially cost lives through delayed emergency response. The technology exists – we just need to implement it.</p>
+            </div>
+
+            <!-- Impact Visualization -->
+            <div class="impact-visualization">
+                <h3 class="impact-title">📈 The Scale of the Problem</h3>
+                <div class="impact-bars">
+                    <div class="impact-item">
+                        <div class="impact-label">Economic Cost</div>
+                        <div class="impact-bar">
+                            <div class="impact-fill impact-cost" style="width: 95%"></div>
+                        </div>
+                        <div class="impact-value">95%</div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-label">Time Wasted</div>
+                        <div class="impact-bar">
+                            <div class="impact-fill impact-time" style="width: 87%"></div>
+                        </div>
+                        <div class="impact-value">87%</div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-label">CO₂ Emissions</div>
+                        <div class="impact-bar">
+                            <div class="impact-fill impact-pollution" style="width: 78%"></div>
+                        </div>
+                        <div class="impact-value">78%</div>
+                    </div>
+                    <div class="impact-item">
+                        <div class="impact-label">Emergency Delays</div>
+                        <div class="impact-bar">
+                            <div class="impact-fill impact-emergency" style="width: 92%"></div>
+                        </div>
+                        <div class="impact-value">92%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solution CTA -->
+            <div class="solution-cta">
+                <h3 class="cta-title">But There's Hope</h3>
+                <p class="cta-text">AI-powered traffic management can solve these problems. Our SmartTraffic system represents the future of urban mobility.</p>
+                <a href="solution.html" class="cta-button">Discover Our Solution →</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="static/script.js"></script>
+    <script>
+        // Counter Animation
+        function animateCounters() {
+            const counters = document.querySelectorAll('.animate-counter');
+            
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-target'));
+                const duration = 2000;
+                const step = target / (duration / 16);
+                let current = 0;
+                
+                const timer = setInterval(() => {
+                    current += step;
+                    if (current >= target) {
+                        counter.textContent = target + (counter.textContent.includes('B') ? 'B' : counter.textContent.includes('min') ? ' min' : counter.textContent.includes('%') ? '%' : '');
+                        clearInterval(timer);
+                    } else {
+                        counter.textContent = Math.floor(current) + (counter.textContent.includes('B') ? 'B' : counter.textContent.includes('min') ? ' min' : counter.textContent.includes('%') ? '%' : '');
+                    }
+                }, 16);
+            });
+        }
+
+        // Animate on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateCounters();
+                    observer.disconnect();
+                }
+            });
+        });
+
+        observer.observe(document.querySelector('.stats-highlight'));
+
+        // Animate bars on scroll
+        const barObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const bars = entry.target.querySelectorAll('.impact-fill');
+                    bars.forEach((bar, index) => {
+                        setTimeout(() => {
+                            bar.style.animation = 'none';
+                            bar.offsetHeight; // Trigger reflow
+                            bar.style.animation = null;
+                        }, index * 200);
+                    });
+                }
+            });
+        });
+
+        barObserver.observe(document.querySelector('.impact-visualization'));
+    </script>
+</body>
+</html>

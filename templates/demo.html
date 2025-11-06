@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTraffic AI - Live Demo</title>
+    <link href="static/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .demo-container {
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+
+        .demo-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding: 2rem 0;
+        }
+
+        .demo-title {
+            font-size: 3rem;
+            font-weight: 900;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .demo-subtitle {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .demo-grid {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .intersection-container {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 2rem;
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            position: relative;
+        }
+
+        .intersection {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            background: linear-gradient(45deg, #f8f9fa 25%, #e9ecef 25%, #e9ecef 50%, #f8f9fa 50%, #f8f9fa 75%, #e9ecef 75%);
+            background-size: 30px 30px;
+            border-radius: 12px;
+            border: 2px solid var(--border-soft);
+            overflow: hidden;
+        }
+
+        .road {
+            position: absolute;
+            background: #2c3e50;
+        }
+
+        .road-ns {
+            width: 120px;
+            height: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .road-ew {
+            height: 120px;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .lane-divider {
+            position: absolute;
+            background: #f1c40f;
+            z-index: 2;
+        }
+
+        .lane-divider.vertical {
+            width: 4px;
+            height: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .lane-divider.horizontal {
+            height: 4px;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .traffic-light {
+            position: absolute;
+            background: rgba(0,0,0,0.8);
+            padding: 8px;
+            border-radius: 8px;
+            display: flex;
+            gap: 6px;
+            z-index: 10;
+            border: 2px solid #333;
+        }
+
+        .tl-north {
+            top: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .tl-south {
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .tl-east {
+            right: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            flex-direction: column;
+        }
+
+        .tl-west {
+            left: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            flex-direction: column;
+        }
+
+        .light {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .light.active {
+            box-shadow: 0 0 15px currentColor, 0 0 25px currentColor;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        .light.red.active {
+            background: #e74c3c;
+            color: #e74c3c;
+        }
+
+        .light.yellow.active {
+            background: #f1c40f;
+            color: #f1c40f;
+        }
+
+        .light.green.active {
+            background: #2ecc71;
+            color: #2ecc71;
+        }
+
+        @keyframes glow {
+            from { box-shadow: 0 0 15px currentColor, 0 0 25px currentColor; }
+            to { box-shadow: 0 0 20px currentColor, 0 0 35px currentColor; }
+        }
+
+        .car {
+            position: absolute;
+            width: 30px;
+            height: 20px;
+            border-radius: 4px;
+            z-index: 5;
+            transition: all 0.5s ease;
+        }
+
+        .car-ns {
+            background: linear-gradient(45deg, #3498db, #2980b9);
+            border: 2px solid #2c3e50;
+        }
+
+        .car-sn {
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
+            border: 2px solid #2c3e50;
+        }
+
+        .car-ew {
+            background: linear-gradient(45deg, #2ecc71, #27ae60);
+            border: 2px solid #2c3e50;
+        }
+
+        .car-we {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            border: 2px solid #2c3e50;
+        }
+
+        .emergency-vehicle {
+            background: linear-gradient(45deg, #ff0000, #cc0000) !important;
+            animation: emergencyFlash 0.5s infinite alternate;
+            box-shadow: 0 0 20px rgba(255,0,0,0.6);
+        }
+
+        @keyframes emergencyFlash {
+            from { filter: brightness(1); }
+            to { filter: brightness(1.5); }
+        }
+
+        .car-counter {
+            position: absolute;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            z-index: 15;
+        }
+
+        .counter-north {
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .counter-south {
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .counter-east {
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .counter-west {
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .status-display {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.9);
+            color: white;
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+            z-index: 20;
+            border: 2px solid var(--purple-main);
+        }
+
+        .phase-indicator {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .timer {
+            font-size: 1.5rem;
+            color: var(--purple-main);
+            font-weight: 900;
+        }
+
+        .control-panel {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            height: fit-content;
+        }
+
+        .control-section {
+            margin-bottom: 2rem;
+        }
+
+        .control-section h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .mode-buttons {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .mode-btn {
+            flex: 1;
+            padding: 0.7rem;
+            border: 2px solid var(--border-soft);
+            background: white;
+            color: var(--text-main);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .mode-btn.active {
+            background: var(--gradient-main);
+            color: white;
+            border-color: var(--purple-dark);
+            box-shadow: 0 0 15px rgba(155,91,255,0.4);
+        }
+
+        .manual-controls {
+            display: grid;
+            gap: 0.5rem;
+        }
+
+        .control-btn {
+            padding: 0.8rem;
+            border: none;
+            background: var(--purple-soft);
+            color: var(--purple-dark);
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .control-btn:hover {
+            background: var(--purple-main);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .emergency-controls {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .emergency-btn {
+            padding: 0.6rem;
+            border: 2px solid #e74c3c;
+            background: white;
+            color: #e74c3c;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .emergency-btn:hover, .emergency-btn.active {
+            background: #e74c3c;
+            color: white;
+            box-shadow: 0 0 15px rgba(231,76,60,0.4);
+        }
+
+        .direction-controls {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.4rem;
+            margin-bottom: 1rem;
+        }
+
+        .direction-btn {
+            padding: 0.5rem;
+            border: 1px solid var(--border-soft);
+            background: white;
+            color: var(--text-main);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+        }
+
+        .direction-btn:hover {
+            background: var(--purple-soft);
+        }
+
+        .stats-section {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            margin-bottom: 2rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+
+        .stat-card {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(155,91,255,0.1);
+            border-radius: 8px;
+            border: 1px solid var(--border-soft);
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--purple-dark);
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        .ai-status {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem;
+            border-radius: 12px;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .ai-indicator {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .ai-pulse {
+            width: 12px;
+            height: 12px;
+            background: #2ecc71;
+            border-radius: 50%;
+            animation: aiPulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes aiPulse {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.3); }
+        }
+
+        .charts-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .chart-container {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .chart-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .shortcuts {
+            background: rgba(155,91,255,0.1);
+            border: 1px solid var(--border-soft);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .shortcuts h4 {
+            margin-bottom: 0.5rem;
+            color: var(--purple-dark);
+        }
+
+        .shortcut-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 0.25rem 0;
+            font-size: 0.9rem;
+        }
+
+        .shortcut-key {
+            background: var(--purple-dark);
+            color: white;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 1024px) {
+            .demo-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .charts-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .demo-title {
+                font-size: 2rem;
+            }
+            
+            .intersection {
+                height: 400px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">🚦 SmartTraffic AI</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="tech.html">Tech Stack</a></li>
+                <li><a href="demo.html" class="active">Demo</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="demo-container">
+        <div class="container">
+            <!-- Demo Header -->
+            <div class="demo-header">
+                <h1 class="demo-title">🚦 Live Traffic Control Center</h1>
+                <p class="demo-subtitle">Experience real-time AI-powered traffic optimization in action. Watch as our intelligent system adapts to traffic patterns and prioritizes emergency vehicles.</p>
+            </div>
+
+            <!-- AI Status -->
+            <div class="ai-status">
+                <div class="ai-indicator">
+                    <div class="ai-pulse"></div>
+                    <span>AI Traffic Controller: ACTIVE</span>
+                </div>
+                <div id="ai-message">Analyzing traffic patterns and optimizing signal timing...</div>
+            </div>
+
+            <!-- Live Statistics -->
+            <div class="stats-section">
+                <h3 style="text-align: center; margin-bottom: 1.5rem; color: var(--purple-dark);">📊 Real-Time Performance Metrics</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-cleared">0</div>
+                        <div class="stat-label">Vehicles Cleared</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="avg-wait">--</div>
+                        <div class="stat-label">Avg Wait (s)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="efficiency">85%</div>
+                        <div class="stat-label">Efficiency</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Demo Grid -->
+            <div class="demo-grid">
+                <!-- Traffic Intersection -->
+                <div class="intersection-container">
+                    <h3 style="margin-bottom: 1rem; color: var(--purple-dark);">🎯 Live Traffic Intersection</h3>
+                    
+                    <div class="intersection" id="intersection">
+                        <!-- Roads -->
+                        <div class="road road-ns"></div>
+                        <div class="road road-ew"></div>
+                        
+                        <!-- Lane Dividers -->
+                        <div class="lane-divider vertical"></div>
+                        <div class="lane-divider horizontal"></div>
+                        
+                        <!-- Traffic Lights -->
+                        <div class="traffic-light tl-north">
+                            <div class="light red" data-color="red"></div>
+                            <div class="light yellow" data-color="yellow"></div>
+                            <div class="light green" data-color="green"></div>
+                        </div>
+                        
+                        <div class="traffic-light tl-south">
+                            <div class="light red" data-color="red"></div>
+                            <div class="light yellow" data-color="yellow"></div>
+                            <div class="light green" data-color="green"></div>
+                        </div>
+                        
+                        <div class="traffic-light tl-east">
+                            <div class="light red" data-color="red"></div>
+                            <div class="light yellow" data-color="yellow"></div>
+                            <div class="light green" data-color="green"></div>
+                        </div>
+                        
+                        <div class="traffic-light tl-west">
+                            <div class="light red" data-color="red"></div>
+                            <div class="light yellow" data-color="yellow"></div>
+                            <div class="light green" data-color="green"></div>
+                        </div>
+                        
+                        <!-- Car Counters -->
+                        <div class="car-counter counter-north">
+                            <span id="count-north">0</span> Cars
+                        </div>
+                        <div class="car-counter counter-south">
+                            <span id="count-south">0</span> Cars
+                        </div>
+                        <div class="car-counter counter-east">
+                            <span id="count-east">0</span> Cars
+                        </div>
+                        <div class="car-counter counter-west">
+                            <span id="count-west">0</span> Cars
+                        </div>
+                        
+                        <!-- Status Display -->
+                        <div class="status-display">
+                            <div class="phase-indicator">Phase: <span id="current-phase">AUTO</span></div>
+                            <div class="timer">⏱️ <span id="phase-timer">--</span>s</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Control Panel -->
+                <div class="control-panel">
+                    <div class="control-section">
+                        <h3>🎮 Control Mode</h3>
+                        <div class="mode-buttons">
+                            <button class="mode-btn active" data-mode="auto">Auto</button>
+                            <button class="mode-btn" data-mode="manual">Manual</button>
+                            <button class="mode-btn" data-mode="emergency">Emergency</button>
+                        </div>
+                    </div>
+
+                    <div class="control-section" id="manual-section" style="display: none;">
+                        <h3>⚙️ Manual Controls</h3>
+                        <div class="manual-controls">
+                            <button class="control-btn" data-action="ns-green">🟢 Set NS Green</button>
+                            <button class="control-btn" data-action="ew-green">🟢 Set EW Green</button>
+                            <button class="control-btn" data-action="all-red">🔴 All Red</button>
+                        </div>
+                    </div>
+
+                    <div class="control-section" id="emergency-section" style="display: none;">
+                        <h3>🚨 Emergency Override</h3>
+                        <div class="emergency-controls">
+                            <button class="emergency-btn" data-vehicle="ambulance">🚑 Ambulance</button>
+                            <button class="emergency-btn" data-vehicle="fire">🚒 Fire Truck</button>
+                            <button class="emergency-btn" data-vehicle="police">🚓 Police</button>
+                            <button class="emergency-btn" data-vehicle="generic">⚠️ Generic</button>
+                        </div>
+                        
+                        <h4 style="margin: 1rem 0 0.5rem 0; color: var(--text-secondary);">Direction:</h4>
+                        <div class="direction-controls">
+                            <button class="direction-btn" data-direction="north">⬆️ North</button>
+                            <button class="direction-btn" data-direction="south">⬇️ South</button>
+                            <button class="direction-btn" data-direction="east">➡️ East</button>
+                            <button class="direction-btn" data-direction="west">⬅️ West</button>
+                        </div>
+                        
+                        <button class="control-btn" style="background: #e74c3c; color: white;" onclick="clearEmergency()">Clear Emergency</button>
+                    </div>
+
+                    <div class="shortcuts">
+                        <h4>⌨️ Keyboard Shortcuts</h4>
+                        <div class="shortcut-item">
+                            <span><span class="shortcut-key">A</span> Auto Mode</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <span><span class="shortcut-key">M</span> Manual Mode</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <span><span class="shortcut-key">E</span> Emergency Mode</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <span><span class="shortcut-key">1</span> NS Green</span>
+                        </div>
+                        <div class="shortcut-item">
+                            <span><span class="shortcut-key">2</span> EW Green</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Section -->
+            <div class="charts-section">
+                <div class="chart-container">
+                    <h3 class="chart-title">📈 Traffic Flow Analysis</h3>
+                    <canvas id="flowChart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3 class="chart-title">⏱️ Wait Time Optimization</h3>
+                    <canvas id="waitChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Simulation Variables
+        let currentMode = 'auto';
+        let currentPhase = 'NS';
+        let phaseTimer = 8;
+        let totalCleared = 0;
+        let avgWait = 0;
+        let trafficData = {
+            north: 0, south: 0, east: 0, west: 0
+        };
+        let cars = [];
+        let emergencyActive = false;
+        let emergencyVehicle = null;
+        let emergencyDirection = null;
+
+        // Chart Variables
+        let flowChart, waitChart;
+        let flowData = [];
+        let waitData = [];
+        let timeLabels = [];
+
+        // Initialize Demo
+        function init() {
+            setupCharts();
+            setupEventListeners();
+            startSimulation();
+            startChartUpdates();
+        }
+
+        // Setup Charts
+        function setupCharts() {
+            // Flow Chart
+            const flowCtx = document.getElementById('flowChart').getContext('2d');
+            flowChart = new Chart(flowCtx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: 'Vehicles/min',
+                        data: [],
+                        borderColor: '#9b5bff',
+                        backgroundColor: 'rgba(155,91,255,0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        y: { beginAtZero: true, max: 50 }
+                    },
+                    plugins: { legend: { display: false } }
+                }
+            });
+
+            // Wait Chart
+            const waitCtx = document.getElementById('waitChart').getContext('2d');
+            waitChart = new Chart(waitCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['North', 'South', 'East', 'West'],
+                    datasets: [{
+                        label: 'Avg Wait (s)',
+                        data: [0, 0, 0, 0],
+                        backgroundColor: ['#e74c3c', '#3498db', '#2ecc71', '#f39c12'],
+                        borderRadius: 8
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: { y: { beginAtZero: true, max: 30 } },
+                    plugins: { legend: { display: false } }
+                }
+            });
+        }
+
+        // Setup Event Listeners
+        function setupEventListeners() {
+            // Mode buttons
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    
+                    currentMode = btn.dataset.mode;
+                    document.getElementById('current-phase').textContent = currentMode.toUpperCase();
+                    
+                    // Show/hide control sections
+                    document.getElementById('manual-section').style.display = currentMode === 'manual' ? 'block' : 'none';
+                    document.getElementById('emergency-section').style.display = currentMode === 'emergency' ? 'block' : 'none';
+                });
+            });
+
+            // Manual controls
+            document.querySelectorAll('.control-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const action = btn.dataset.action;
+                    if (action === 'ns-green') setPhase('NS');
+                    else if (action === 'ew-green') setPhase('EW');
+                    else if (action === 'all-red') setPhase('RED');
+                });
+            });
+
+            // Emergency controls
+            document.querySelectorAll('.emergency-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.emergency-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    emergencyVehicle = btn.dataset.vehicle;
+                });
+            });
+
+            // Direction controls
+            document.querySelectorAll('.direction-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    if (emergencyVehicle) {
+                        emergencyDirection = btn.dataset.direction;
+                        activateEmergency();
+                    }
+                });
+            });
+
+            // Keyboard shortcuts
+            document.addEventListener('keydown', (e) => {
+                switch(e.key.toLowerCase()) {
+                    case 'a': setMode('auto'); break;
+                    case 'm': setMode('manual'); break;
+                    case 'e': setMode('emergency'); break;
+                    case '1': if (currentMode === 'manual') setPhase('NS'); break;
+                    case '2': if (currentMode === 'manual') setPhase('EW'); break;
+                    case '0': if (currentMode === 'manual') setPhase('RED'); break;
+                }
+            });
+        }
+
+        // Set Mode
+        function setMode(mode) {
+            document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+            document.querySelector(`[data-mode="${mode}"]`).classList.add('active');
+            currentMode = mode;
+            document.getElementById('current-phase').textContent = mode.toUpperCase();
+            
+            document.getElementById('manual-section').style.display = mode === 'manual' ? 'block' : 'none';
+            document.getElementById('emergency-section').style.display = mode === 'emergency' ? 'block' : 'none';
+        }
+
+        // Set Traffic Light Phase
+        function setPhase(phase) {
+            currentPhase = phase;
+            phaseTimer = 8;
+            updateLights();
+            
+            if (phase === 'NS') {
+                document.getElementById('ai-message').textContent = 'North-South corridor cleared for traffic flow';
+            } else if (phase === 'EW') {
+                document.getElementById('ai-message').textContent = 'East-West corridor cleared for traffic flow';
+            } else if (phase === 'RED') {
+                document.getElementById('ai-message').textContent = 'All-red phase - intersection clearing';
+            }
+        }
+
+        // Update Traffic Lights
+        function updateLights() {
+            document.querySelectorAll('.light').forEach(light => {
+                light.classList.remove('active');
+            });
+
+            if (currentPhase === 'NS') {
+                document.querySelectorAll('.tl-north .red, .tl-south .red').forEach(l => l.classList.remove('active'));
+                document.querySelectorAll('.tl-north .green, .tl-south .green').forEach(l => l.classList.add('active'));
+                document.querySelectorAll('.tl-east .red, .tl-west .red').forEach(l => l.classList.add('active'));
+            } else if (currentPhase === 'EW') {
+                document.querySelectorAll('.tl-east .red, .tl-west .red').forEach(l => l.classList.remove('active'));
+                document.querySelectorAll('.tl-east .green, .tl-west .green').forEach(l => l.classList.add('active'));
+                document.querySelectorAll('.tl-north .red, .tl-south .red').forEach(l => l.classList.add('active'));
+            } else if (currentPhase === 'YELLOW') {
+                document.querySelectorAll('.light.yellow').forEach(l => l.classList.add('active'));
+            } else if (currentPhase === 'RED') {
+                document.querySelectorAll('.light.red').forEach(l => l.classList.add('active'));
+            }
+        }
+
+        // Activate Emergency Override
+        function activateEmergency() {
+            if (emergencyVehicle && emergencyDirection) {
+                emergencyActive = true;
+                
+                // Create emergency vehicle
+                createEmergencyVehicle(emergencyDirection);
+                
+                // Set appropriate phase for emergency vehicle
+                if (emergencyDirection === 'north' || emergencyDirection === 'south') {
+                    setPhase('NS');
+                } else {
+                    setPhase('EW');
+                }
+                
+                document.getElementById('ai-message').textContent = `🚨 EMERGENCY OVERRIDE: ${emergencyVehicle.toUpperCase()} approaching from ${emergencyDirection.toUpperCase()}`;
+            }
+        }
+
+        // Create Emergency Vehicle
+        function createEmergencyVehicle(direction) {
+            const intersection = document.getElementById('intersection');
+            const car = document.createElement('div');
+            car.className = `car emergency-vehicle`;
+            
+            if (direction === 'north') {
+                car.style.left = '45%';
+                car.style.top = '10px';
+                car.classList.add('car-ns');
+            } else if (direction === 'south') {
+                car.style.left = '45%';
+                car.style.bottom = '10px';
+                car.classList.add('car-sn');
+            } else if (direction === 'east') {
+                car.style.right = '10px';
+                car.style.top = '45%';
+                car.classList.add('car-ew');
+            } else if (direction === 'west') {
+                car.style.left = '10px';
+                car.style.top = '45%';
+                car.classList.add('car-we');
+            }
+            
+            intersection.appendChild(car);
+            
+            // Move emergency vehicle through intersection
+            setTimeout(() => {
+                car.style.opacity = '0';
+                setTimeout(() => car.remove(), 500);
+                clearEmergency();
+            }, 3000);
+        }
+
+        // Clear Emergency
+        function clearEmergency() {
+            emergencyActive = false;
+            emergencyVehicle = null;
+            emergencyDirection = null;
+            document.querySelectorAll('.emergency-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('ai-message').textContent = 'Emergency cleared. Resuming normal traffic flow optimization.';
+        }
+
+        // Generate Random Traffic
+        function generateTraffic() {
+            // Simulate varying traffic throughout the day
+            const hour = new Date().getHours();
+            let baseTraffic = 5;
+            
+            // Rush hour simulation
+            if ((hour >= 7 && hour <= 9) || (hour >= 17 && hour <= 19)) {
+                baseTraffic = 15;
+            }
+            
+            trafficData.north = Math.max(0, Math.floor(Math.random() * baseTraffic) + Math.floor(Math.random() * 5) - 2);
+            trafficData.south = Math.max(0, Math.floor(Math.random() * baseTraffic) + Math.floor(Math.random() * 5) - 2);
+            trafficData.east = Math.max(0, Math.floor(Math.random() * baseTraffic) + Math.floor(Math.random() * 5) - 2);
+            trafficData.west = Math.max(0, Math.floor(Math.random() * baseTraffic) + Math.floor(Math.random() * 5) - 2);
+            
+            // Update display
+            document.getElementById('count-north').textContent = trafficData.north;
+            document.getElementById('count-south').textContent = trafficData.south;
+            document.getElementById('count-east').textContent = trafficData.east;
+            document.getElementById('count-west').textContent = trafficData.west;
+        }
+
+        // Start Simulation
+        function startSimulation() {
+            setInterval(() => {
+                generateTraffic();
+                
+                if (currentMode === 'auto' && !emergencyActive) {
+                    // AI decision making
+                    const nsTraffic = trafficData.north + trafficData.south;
+                    const ewTraffic = trafficData.east + trafficData.west;
+                    
+                    if (phaseTimer <= 0) {
+                        if (currentPhase === 'NS' && ewTraffic > nsTraffic + 3) {
+                            setPhase('EW');
+                        } else if (currentPhase === 'EW' && nsTraffic > ewTraffic + 3) {
+                            setPhase('NS');
+                        } else if (currentPhase === 'NS') {
+                            setPhase('EW');
+                        } else {
+                            setPhase('NS');
+                        }
+                    }
+                }
+                
+                phaseTimer = Math.max(0, phaseTimer - 1);
+                document.getElementById('phase-timer').textContent = phaseTimer;
+                
+                // Update stats
+                totalCleared += Math.floor(Math.random() * 8) + 2;
+                avgWait = Math.floor(Math.random() * 15) + 8;
+                
+                document.getElementById('total-cleared').textContent = totalCleared.toLocaleString();
+                document.getElementById('avg-wait').textContent = avgWait;
+                
+            }, 1000);
+        }
+
+        // Start Chart Updates
+        function startChartUpdates() {
+            setInterval(() => {
+                const now = new Date();
+                const timeStr = now.toLocaleTimeString().slice(0, 5);
+                
+                // Update flow chart
+                const totalFlow = trafficData.north + trafficData.south + trafficData.east + trafficData.west;
+                flowData.push(totalFlow);
+                timeLabels.push(timeStr);
+                
+                if (flowData.length > 10) {
+                    flowData.shift();
+                    timeLabels.shift();
+                }
+                
+                flowChart.data.labels = timeLabels;
+                flowChart.data.datasets[0].data = flowData;
+                flowChart.update('none');
+                
+                // Update wait chart
+                waitChart.data.datasets[0].data = [
+                    Math.floor(Math.random() * 20) + 5,
+                    Math.floor(Math.random() * 20) + 5,
+                    Math.floor(Math.random() * 20) + 5,
+                    Math.floor(Math.random() * 20) + 5
+                ];
+                waitChart.update('none');
+                
+            }, 2000);
+        }
+
+        // Initialize everything when page loads
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

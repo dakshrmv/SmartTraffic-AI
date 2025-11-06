@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTraffic AI - Meet Our Team</title>
+    <link href="static/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .team-container {
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+
+        .hero-team {
+            text-align: center;
+            padding: 4rem 0;
+            background: linear-gradient(135deg, var(--purple-main), var(--purple-dark));
+            color: white;
+            margin-bottom: 4rem;
+            border-radius: var(--radius);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-team::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><pattern id="teamPattern" width="40" height="40" patternUnits="userSpaceOnUse"><circle cx="20" cy="20" r="3" fill="rgba(255,255,255,0.1)"/><circle cx="0" cy="0" r="1" fill="rgba(255,255,255,0.05)"/><circle cx="40" cy="40" r="1" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100%" height="100%" fill="url(%23teamPattern)"/></svg>');
+            animation: teamPattern 20s linear infinite;
+        }
+
+        @keyframes teamPattern {
+            0% { transform: translateX(0) translateY(0); }
+            100% { transform: translateX(40px) translateY(40px); }
+        }
+
+        .team-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .team-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .team-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .team-pulse {
+            width: 12px;
+            height: 12px;
+            background: #2ecc71;
+            border-radius: 50%;
+            animation: teamPulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes teamPulse {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.3); }
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+            margin: 4rem 0;
+        }
+
+        .team-member {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            overflow: hidden;
+            transition: all 0.5s ease;
+            position: relative;
+            text-align: center;
+        }
+
+        .team-member::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient-main);
+            transition: left 0.6s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-15px);
+            box-shadow: var(--shadow-heavy);
+            border-color: var(--purple-main);
+        }
+
+        .team-member:hover::before {
+            left: 0;
+        }
+
+        .member-header {
+            padding: 3rem 2rem 2rem;
+            background: linear-gradient(135deg, rgba(155,91,255,0.05), rgba(155,91,255,0.1));
+            position: relative;
+            overflow: hidden;
+        }
+
+        .member-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(155,91,255,0.1) 20%, transparent 60%);
+            animation: memberGlow 6s ease-in-out infinite;
+        }
+
+        @keyframes memberGlow {
+            0%, 100% { transform: rotate(0deg) scale(0.8); }
+            50% { transform: rotate(180deg) scale(1.2); }
+        }
+
+        .member-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: var(--gradient-main);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: white;
+            margin: 0 auto 1.5rem;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            border: 4px solid white;
+            box-shadow: 0 10px 30px rgba(155,91,255,0.2);
+        }
+
+        .member-avatar::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.3) 50%, transparent 70%);
+            animation: avatarShine 4s ease-in-out infinite;
+        }
+
+        @keyframes avatarShine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(0deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(360deg); }
+        }
+
+        .member-name {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--purple-dark);
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .member-role {
+            font-size: 1rem;
+            color: var(--purple-main);
+            font-weight: 600;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .member-description {
+            color: var(--text-secondary);
+            line-height: 1.6;
+            font-size: 0.95rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .member-body {
+            padding: 2rem;
+        }
+
+        .member-skills {
+            margin-bottom: 2rem;
+        }
+
+        .skills-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 1rem;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skill-tag {
+            background: rgba(155,91,255,0.1);
+            color: var(--purple-dark);
+            padding: 0.4rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border: 1px solid var(--border-soft);
+            transition: all 0.3s ease;
+        }
+
+        .skill-tag:hover {
+            background: var(--purple-main);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .member-achievements {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .member-achievements li {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid rgba(155,91,255,0.1);
+        }
+
+        .member-achievements li:last-child {
+            border-bottom: none;
+        }
+
+        .achievement-icon {
+            width: 20px;
+            height: 20px;
+            background: var(--purple-main);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.7rem;
+            font-weight: bold;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+        }
+
+        .achievement-text {
+            color: var(--text-main);
+            line-height: 1.5;
+            font-size: 0.9rem;
+        }
+
+        .member-contact {
+            background: rgba(155,91,255,0.05);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+        }
+
+        .contact-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--purple-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .contact-link {
+            width: 35px;
+            height: 35px;
+            background: var(--gradient-main);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .contact-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(155,91,255,0.4);
+            color: white;
+        }
+
+        .team-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 4rem 0;
+            padding: 3rem;
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(155,91,255,0.05);
+            border-radius: 12px;
+            border: 1px solid var(--border-soft);
+            transition: all 0.3s ease;
+        }
+
+        .stat-item:hover {
+            background: rgba(155,91,255,0.1);
+            transform: translateY(-5px);
+            border-color: var(--purple-main);
+        }
+
+        .stat-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--purple-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .collaboration-section {
+            background: linear-gradient(135deg, var(--purple-main), var(--purple-dark));
+            color: white;
+            padding: 4rem;
+            border-radius: var(--radius);
+            text-align: center;
+            margin: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .collaboration-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            animation: collaborationShine 4s ease-in-out infinite;
+        }
+
+        @keyframes collaborationShine {
+            0% { transform: translateX(-100%) translateY(-100%); }
+            100% { transform: translateX(100%) translateY(100%); }
+        }
+
+        .collaboration-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .collaboration-text {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .collaboration-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .collab-feature {
+            background: rgba(255,255,255,0.1);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.2);
+            transition: all 0.3s ease;
+            position: relative;
+            z-index: 1;
+        }
+
+        .collab-feature:hover {
+            background: rgba(255,255,255,0.15);
+            transform: translateY(-5px);
+        }
+
+        .collab-icon {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .collab-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .collab-description {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .team-title {
+                font-size: 2.5rem;
+            }
+            
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .team-stats {
+                grid-template-columns: repeat(2, 1fr);
+                padding: 2rem;
+            }
+            
+            .collaboration-features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">🚦 SmartTraffic AI</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="tech.html">Tech Stack</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="team.html" class="active">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="team-container">
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="hero-team">
+                <div class="team-badge">
+                    <div class="team-pulse"></div>
+                    Innovation Team
+                </div>
+                <h1 class="team-title">👥 Meet Our Team</h1>
+                <p class="team-subtitle">The brilliant minds behind SmartTraffic AI - passionate engineers and innovators dedicated to revolutionizing urban transportation and creating smarter cities.</p>
+            </div>
+
+            <!-- Team Stats -->
+            <div class="team-stats">
+                <div class="stat-item">
+                    <span class="stat-icon">🎓</span>
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Expert Developers</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">💡</span>
+                    <div class="stat-number">24</div>
+                    <div class="stat-label">Hours of Development</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">🏆</span>
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Technologies Mastered</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">🚀</span>
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Commitment to Excellence</div>
+                </div>
+            </div>
+
+            <!-- Team Members -->
+            <div class="team-grid">
+                <!-- Member 1 -->
+                <div class="team-member">
+                    <div class="member-header">
+                        <div class="member-avatar">👨‍💻</div>
+                        <h3 class="member-name">Daksh</h3>
+                        <div class="member-role">System Architect & AI Lead</div>
+                        <p class="member-description">Mastermind behind the intelligent traffic algorithms and system architecture. Passionate about AI and creating solutions that make cities smarter.</p>
+                    </div>
+                    <div class="member-body">
+                        <div class="member-skills">
+                            <div class="skills-title">Core Expertise</div>
+                            <div class="skills-list">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Flask API</span>
+                                <span class="skill-tag">AI Algorithms</span>
+                                <span class="skill-tag">System Design</span>
+                                <span class="skill-tag">Backend Architecture</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="member-achievements">
+                            <li>
+                                <div class="achievement-icon">⚡</div>
+                                <span class="achievement-text">Designed adaptive signal timing algorithms with 60% efficiency improvement</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">🧠</div>
+                                <span class="achievement-text">Implemented AI-powered traffic pattern recognition system</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">🚨</div>
+                                <span class="achievement-text">Created emergency vehicle priority override system</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">🔄</div>
+                                <span class="achievement-text">Built real-time data processing infrastructure</span>
+                            </li>
+                        </ul>
+
+                        <div class="member-contact">
+                            <div class="contact-title">Connect</div>
+                            <div class="contact-links">
+                                <a href="www.linkedin.com/in/daksh-sharma-34b115360" class="contact-link">💼</a>
+                                <a href="https://x.com/dakshrmv_" class="contact-link">🐱</a>
+                                <a href="https://github.com/dakshrmv" class="contact-link">📧</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Member 2 -->
+                <div class="team-member">
+                    <div class="member-header">
+                        <div class="member-avatar">👩‍🎨</div>
+                        <h3 class="member-name">Aryan</h3>
+                        <div class="member-role">Frontend Developer & UX Designer</div>
+                        <p class="member-description">Creative force behind the stunning user interface and seamless user experience. Expert in modern web technologies and responsive design.</p>
+                    </div>
+                    <div class="member-body">
+                        <div class="member-skills">
+                            <div class="skills-title">Design & Development</div>
+                            <div class="skills-list">
+                                <span class="skill-tag">UI/UX Design</span>
+                                <span class="skill-tag">HTML5/CSS3</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Responsive Design</span>
+                                <span class="skill-tag">Animation</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="member-achievements">
+                            <li>
+                                <div class="achievement-icon">🎨</div>
+                                <span class="achievement-text">Designed award-winning user interface with glassmorphism effects</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">📱</div>
+                                <span class="achievement-text">Created fully responsive dashboard for all device sizes</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">⚡</div>
+                                <span class="achievement-text">Implemented smooth animations and live traffic visualizations</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">🚀</div>
+                                <span class="achievement-text">Optimized performance for sub-second load times</span>
+                            </li>
+                        </ul>
+
+                        <div class="member-contact">
+                            <div class="contact-title">Connect</div>
+                            <div class="contact-links">
+                                <a href="#" class="contact-link">💼</a>
+                                <a href="#" class="contact-link">🎨</a>
+                                <a href="#" class="contact-link">📧</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Member 3 -->
+                <div class="team-member">
+                    <div class="member-header">
+                        <div class="member-avatar">👨‍🔬</div>
+                        <h3 class="member-name">Priyanshu</h3>
+                        <div class="member-role">Data Engineer & Analytics Specialist</div>
+                        <p class="member-description">Data wizard who transforms raw traffic information into actionable insights. Expert in data simulation, analysis, and real-time visualizations.</p>
+                    </div>
+                    <div class="member-body">
+                        <div class="member-skills">
+                            <div class="skills-title">Data & Analytics</div>
+                            <div class="skills-list">
+                                <span class="skill-tag">Data Analysis</span>
+                                <span class="skill-tag">Python Scripts</span>
+                                <span class="skill-tag">Real-time Processing</span>
+                                <span class="skill-tag">Visualization</span>
+                                <span class="skill-tag">Performance Metrics</span>
+                            </div>
+                        </div>
+                        
+                        <ul class="member-achievements">
+                            <li>
+                                <div class="achievement-icon">📊</div>
+                                <span class="achievement-text">Built comprehensive data simulation system for realistic traffic modeling</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">📈</div>
+                                <span class="achievement-text">Developed real-time analytics dashboard with live charts</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">🔍</div>
+                                <span class="achievement-text">Created historical analysis tools for traffic pattern insights</span>
+                            </li>
+                            <li>
+                                <div class="achievement-icon">⚡</div>
+                                <span class="achievement-text">Optimized data processing for 2-second update intervals</span>
+                            </li>
+                        </ul>
+
+                        <div class="member-contact">
+                            <div class="contact-title">Connect</div>
+                            <div class="contact-links">
+                                <a href="#" class="contact-link">💼</a>
+                                <a href="#" class="contact-link">📊</a>
+                                <a href="#" class="contact-link">📧</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Collaboration Section -->
+            <div class="collaboration-section">
+                <h2 class="collaboration-title">🤝 How We Work Together</h2>
+                <p class="collaboration-text">Our team combines diverse expertise in AI, frontend development, and data analytics to create a revolutionary traffic management system. Through close collaboration and shared vision, we've built something truly innovative.</p>
+                
+                <div class="collaboration-features">
+                    <div class="collab-feature">
+                        <span class="collab-icon">🧠</span>
+                        <div class="collab-title">AI-Driven Innovation</div>
+                        <div class="collab-description">Combining machine learning expertise with real-world traffic challenges to create intelligent solutions.</div>
+                    </div>
+                    <div class="collab-feature">
+                        <span class="collab-icon">🎨</span>
+                        <div class="collab-title">User-Centric Design</div>
+                        <div class="collab-description">Focusing on intuitive interfaces and seamless user experiences for traffic operators and city planners.</div>
+                    </div>
+                    <div class="collab-feature">
+                        <span class="collab-icon">📊</span>
+                        <div class="collab-title">Data-Driven Decisions</div>
+                        <div class="collab-description">Using comprehensive analytics and real-time data to validate every feature and optimization.</div>
+                    </div>
+                    <div class="collab-feature">
+                        <span class="collab-icon">🚀</span>
+                        <div class="collab-title">Continuous Innovation</div>
+                        <div class="collab-description">Constantly improving and evolving our system based on performance metrics and user feedback.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="static/script.js"></script>
+    <script>
+        // Animate team members on scroll
+        const memberObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.transform = 'translateY(0)';
+                        entry.target.style.opacity = '1';
+                    }, index * 200);
+                }
+            });
+        });
+
+        document.querySelectorAll('.team-member').forEach(member => {
+            member.style.transform = 'translateY(50px)';
+            member.style.opacity = '0';
+            member.style.transition = 'all 0.6s ease';
+            memberObserver.observe(member);
+        });
+
+        // Animate stats on scroll
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.transform = 'translateY(0)';
+                        entry.target.style.opacity = '1';
+                    }, index * 100);
+                }
+            });
+        });
+
+        document.querySelectorAll('.stat-item').forEach(stat => {
+            stat.style.transform = 'translateY(30px)';
+            stat.style.opacity = '0';
+            stat.style.transition = 'all 0.5s ease';
+            statsObserver.observe(stat);
+        });
+
+        // Add click effects to contact links
+        document.querySelectorAll('.contact-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                link.style.transform = 'scale(0.9)';
+                setTimeout(() => {
+                    link.style.transform = 'translateY(-3px)';
+                }, 150);
+            });
+        });
+
+        // Skill tag hover effects
+        document.querySelectorAll('.skill-tag').forEach(tag => {
+            tag.addEventListener('mouseenter', () => {
+                tag.style.animation = 'skillPulse 0.3s ease';
+            });
+        });
+    </script>
+</body>
+</html>

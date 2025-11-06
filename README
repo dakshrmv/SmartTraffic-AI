@@ -1,0 +1,47 @@
+🚦 SmartTraffic AI
+AI-Powered Adaptive Traffic Management System
+
+SmartTraffic AI is an intelligent traffic control system that uses real-time data and adaptive machine learning algorithms to optimize traffic flow, reduce congestion, and prioritize emergency vehicles. It provides live traffic visualization and dynamic signal control for smarter and safer cities.
+
+✅ Features
+
+✅ Real-time traffic data processing (updates every 2 seconds)
+✅ AI-driven adaptive signal timing
+✅ Emergency vehicle priority override
+✅ Live traffic monitoring dashboard (visual charts & UI)
+✅ Automatic traffic simulation for testing and demo
+
+🧠 Technologies Used
+Layer	Technologies
+Backend	Python, Flask
+AI / Logic	Custom adaptive algorithms
+Frontend	HTML, CSS, JavaScript, Chart.js
+Data Simulation	Python traffic data generator
+▶️ How to Run
+# 1. Clone the repository
+git clone https://github.com/yourusername/SmartTraffic-AI.git
+cd SmartTraffic-AI
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Start backend server
+python app.py
+
+
+✅ Open your browser and visit:
+http://localhost:5000
+
+🔮 Future Enhancements
+
+Integration of CCTV feeds with OpenCV for live video analytics
+
+Multi-intersection support for full city-wide deployment
+
+Real-time emergency GPS vehicle tracking
+
+Cloud deployment for smart-city scale architecture
+
+📌 About Project
+
+SmartTraffic AI aims to reduce congestion, improve emergency response time, and make urban mobility smarter using AI-based automation.

@@ -1,0 +1,8 @@
+{
+  "yellow_time": 2,
+  "all_red_time": 1,
+  "default_green_time": 5,
+  "priority_time": 15,
+  "demand_buffer": 10,
+  "emergency_mode": false
+}

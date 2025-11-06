@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTraffic AI - Intelligent Traffic Management</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="index.html" class="logo">🚦 SmartTraffic AI</a>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="tech.html">Tech Stack</a></li>
+                <li><a href="demo.html" class="demo-btn">Live Demo</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="badge pulse">🤖 AI-Powered Traffic Control</span>
+                <h1 class="hero-title">
+                    Intelligent Traffic Management for
+                    <span class="gradient-text">Modern Cities</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Revolutionary AI-driven traffic optimization system that reduces congestion by up to <strong>60%</strong>, 
+                    cuts wait times by <strong>45%</strong>, and enables <strong>instant</strong> emergency vehicle routing.
+                </p>
+                <div class="hero-actions">
+                    <a href="demo.html" class="btn btn-primary btn-large">
+                        <span>🚀 Launch Live Demo</span>
+                    </a>
+                    <a href="#impact" class="btn btn-secondary btn-large">
+                        <span>📊 View Impact</span>
+                    </a>
+                </div>
+
+                <!-- Live Stats Counter -->
+                <div class="live-stats">
+                    <div class="stat-item">
+                        <div class="stat-value" data-target="10240">0</div>
+                        <div class="stat-label">Vehicles Managed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" data-target="60">0</div>
+                        <div class="stat-label">% Congestion Reduced</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" data-target="45">0</div>
+                        <div class="stat-label">% Wait Time Cut</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="intersection-preview">
+                    <div class="traffic-light tl-north" id="tl-n">
+                        <div class="light red active"></div>
+                        <div class="light yellow"></div>
+                        <div class="light green"></div>
+                    </div>
+                    <div class="traffic-light tl-south" id="tl-s">
+                        <div class="light red active"></div>
+                        <div class="light yellow"></div>
+                        <div class="light green"></div>
+                    </div>
+                    <div class="traffic-light tl-east" id="tl-e">
+                        <div class="light red active"></div>
+                        <div class="light yellow"></div>
+                        <div class="light green"></div>
+                    </div>
+                    <div class="traffic-light tl-west" id="tl-w">
+                        <div class="light red active"></div>
+                        <div class="light yellow"></div>
+                        <div class="light green"></div>
+                    </div>
+                    <div class="intersection-center">
+                        <div class="ai-pulse"></div>
+                        <span class="ai-label">AI Engine</span>
+                    </div>
+                    <div class="car-animation car-ns"></div>
+                    <div class="car-animation car-ew"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Stats -->
+    <section id="impact" class="impact-section">
+        <div class="container">
+            <h2 class="section-title">Real-World Impact</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">🚗</div>
+                    <h3>60% Less Congestion</h3>
+                    <p>Dynamic signal timing adapts to real-time traffic density, dramatically reducing gridlock</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">⏱️</div>
+                    <h3>45% Faster Commutes</h3>
+                    <p>AI optimization minimizes unnecessary stops and wait times at intersections</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 45%"></div>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🚑</div>
+                    <h3>Instant Emergency Response</h3>
+                    <p>Priority routing clears paths for ambulances, fire trucks, and police vehicles instantly</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 100%"></div>
+                    </div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">🌱</div>
+                    <h3>35% Lower Emissions</h3>
+                    <p>Reduced idling time translates directly to cleaner air and lower carbon footprint</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 35%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-section">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">📡</div>
+                    <h3>Real-Time Monitoring</h3>
+                    <p>Sensors collect traffic data every 2 seconds from all directions</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">🧠</div>
+                    <h3>AI Analysis</h3>
+                    <p>Machine learning algorithms process density patterns and predict optimal timing</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">⚡</div>
+                    <h3>Dynamic Adjustment</h3>
+                    <p>Signals adapt in real-time prioritizing high-density lanes and emergencies</p>
+                </div>
+                <div class="step-arrow">→</div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">📊</div>
+                    <h3>Continuous Learning</h3>
+                    <p>System improves over time by analyzing traffic patterns and outcomes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Preview -->
+    <section class="features-preview">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI-Powered Optimization</h3>
+                    <p>Intelligent algorithms that learn and adapt to traffic patterns</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Real-Time Processing</h3>
+                    <p>Updates every 2 seconds for instant response to changing conditions</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚨</div>
+                    <h3>Emergency Override</h3>
+                    <p>Instant priority routing for emergency vehicles</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Live Analytics Dashboard</h3>
+                    <p>Monitor traffic flow, density, and system performance in real-time</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>Adaptive Signal Timing</h3>
+                    <p>Dynamic green light duration based on vehicle demand</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Cloud Integration</h3>
+                    <p>Scalable architecture for city-wide deployment</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="features.html" class="btn btn-primary">View All Features</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Experience the Future of Traffic Management?</h2>
+                <p>See our AI-powered system in action with live traffic simulation and real-time control</p>
+                <a href="demo.html" class="btn btn-large btn-white">
+                    <span>🎮 Launch Interactive Demo</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SmartTraffic AI. </p>
+            <p>Team: Tensor Titans</p>
+        </div>
+    </footer>
+
+    <script src="static/effects.js"></script>
+    <script src="static/script.js"></script>
+    <script>
+        // Animated Counter
+        function animateCounter(element) {
+            const target = parseInt(element.dataset.target);
+            const duration = 2000;
+            const step = target / (duration / 16);
+            let current = 0;
+            
+            const timer = setInterval(() => {
+                current += step;
+                if (current >= target) {
+                    element.textContent = target.toLocaleString();
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.floor(current).toLocaleString();
+                }
+            }, 16);
+        }
+
+        // Trigger counters when visible
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counters = entry.target.querySelectorAll('.stat-value');
+                    counters.forEach(animateCounter);
+                    observer.unobserve(entry.target);
+                }
+            });
+        });
+
+        observer.observe(document.querySelector('.live-stats'));
+
+        // Traffic light animation on hero
+        const lights = ['north', 'south', 'east', 'west'];
+        let currentLight = 0;
+        
+        function animateTrafficLights() {
+            const phases = [
+                {green: ['north', 'south'], red: ['east', 'west']},
+                {green: ['east', 'west'], red: ['north', 'south']}
+            ];
+            
+            const phase = phases[currentLight % 2];
+            
+            lights.forEach(dir => {
+                const tl = document.getElementById(`tl-${dir.charAt(0)}`);
+                const lightEls = tl.querySelectorAll('.light');
+                lightEls.forEach(l => l.classList.remove('active'));
+                
+                if (phase.green.includes(dir)) {
+                    lightEls[2].classList.add('active'); // green
+                } else {
+                    lightEls[0].classList.add('active'); // red
+                }
+            });
+            
+            currentLight++;
+        }
+        
+        setInterval(animateTrafficLights, 3000);
+        animateTrafficLights();
+    </script>
+</body>
+</html>

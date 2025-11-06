@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartTraffic AI - Technology Stack</title>
+    <link href="static/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .tech-container {
+            padding-top: 100px;
+            min-height: 100vh;
+        }
+
+        .hero-tech {
+            text-align: center;
+            padding: 4rem 0;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            margin-bottom: 4rem;
+            border-radius: var(--radius);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-tech::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r="2" fill="rgba(255,255,255,0.1)"/><path d="M15,0 L15,30 M0,15 L30,15" stroke="rgba(255,255,255,0.05)" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23techGrid)"/></svg>');
+            animation: techPattern 15s linear infinite;
+        }
+
+        @keyframes techPattern {
+            0% { transform: translateX(0) translateY(0); }
+            100% { transform: translateX(30px) translateY(30px); }
+        }
+
+        .tech-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tech-subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.6;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tech-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(255,255,255,0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .code-pulse {
+            width: 12px;
+            height: 12px;
+            background: #2ecc71;
+            border-radius: 2px;
+            animation: codePulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes codePulse {
+            0%, 100% { opacity: 0.3; transform: scale(1) rotate(0deg); }
+            50% { opacity: 1; transform: scale(1.3) rotate(45deg); }
+        }
+
+        .tech-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .tech-category {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            overflow: hidden;
+            transition: all 0.5s ease;
+            position: relative;
+        }
+
+        .tech-category::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 4px;
+            transition: left 0.6s ease;
+        }
+
+        .tech-category:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-heavy);
+            border-color: var(--purple-main);
+        }
+
+        .tech-category:hover::before {
+            left: 0;
+        }
+
+        .category-backend::before { background: linear-gradient(45deg, #3498db, #2980b9); }
+        .category-frontend::before { background: linear-gradient(45deg, #e74c3c, #c0392b); }
+        .category-ai::before { background: linear-gradient(45deg, #9b59b6, #8e44ad); }
+        .category-data::before { background: linear-gradient(45deg, #f39c12, #e67e22); }
+
+        .category-header {
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .category-backend .category-header { background: linear-gradient(135deg, rgba(52,152,219,0.1), rgba(41,128,185,0.1)); }
+        .category-frontend .category-header { background: linear-gradient(135deg, rgba(231,76,60,0.1), rgba(192,57,43,0.1)); }
+        .category-ai .category-header { background: linear-gradient(135deg, rgba(155,89,182,0.1), rgba(142,68,173,0.1)); }
+        .category-data .category-header { background: linear-gradient(135deg, rgba(243,156,18,0.1), rgba(230,126,34,0.1)); }
+
+        .category-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            color: white;
+            margin: 0 auto 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .category-backend .category-icon { background: linear-gradient(135deg, #3498db, #2980b9); }
+        .category-frontend .category-icon { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+        .category-ai .category-icon { background: linear-gradient(135deg, #9b59b6, #8e44ad); }
+        .category-data .category-icon { background: linear-gradient(135deg, #f39c12, #e67e22); }
+
+        .category-icon::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.3) 50%, transparent 70%);
+            animation: iconGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes iconGlow {
+            0% { transform: translateX(-100%) translateY(-100%); }
+            100% { transform: translateX(100%) translateY(100%); }
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+        }
+
+        .category-backend .category-title { color: #2980b9; }
+        .category-frontend .category-title { color: #c0392b; }
+        .category-ai .category-title { color: #8e44ad; }
+        .category-data .category-title { color: #e67e22; }
+
+        .category-subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .tech-list {
+            padding: 2rem;
+        }
+
+        .tech-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            background: rgba(155,91,255,0.05);
+            border-radius: 10px;
+            border: 1px solid var(--border-soft);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tech-item::before {
+            content: '';
+            position: absolute;
+            left: -100%;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(155,91,255,0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .tech-item:hover::before {
+            left: 100%;
+        }
+
+        .tech-item:hover {
+            background: rgba(155,91,255,0.1);
+            transform: translateX(5px);
+            border-color: var(--purple-main);
+        }
+
+        .tech-logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            flex-shrink: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .tech-python { background: linear-gradient(135deg, #3776ab, #ffd43b); }
+        .tech-flask { background: linear-gradient(135deg, #000000, #4d4d4d); }
+        .tech-json { background: linear-gradient(135deg, #000000, #424242); }
+        .tech-html { background: linear-gradient(135deg, #e34f26, #f16529); }
+        .tech-css { background: linear-gradient(135deg, #1572b6, #33a9dc); }
+        .tech-js { background: linear-gradient(135deg, #f7df1e, #f0db4f); }
+        .tech-ai { background: linear-gradient(135deg, #9b59b6, #e91e63); }
+        .tech-threading { background: linear-gradient(135deg, #2ecc71, #27ae60); }
+
+        .tech-info {
+            position: relative;
+            z-index: 1;
+        }
+
+        .tech-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 0.25rem;
+        }
+
+        .tech-description {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        .architecture-section {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            padding: 3rem;
+            margin: 4rem 0;
+            text-align: center;
+        }
+
+        .architecture-title {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: var(--purple-dark);
+            margin-bottom: 2rem;
+        }
+
+        .architecture-diagram {
+            display: grid;
+            grid-template-columns: 1fr 100px 1fr 100px 1fr;
+            gap: 1rem;
+            align-items: center;
+            max-width: 800px;
+            margin: 2rem auto;
+        }
+
+        .arch-layer {
+            background: var(--bg-card);
+            border: 2px solid var(--border-soft);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .arch-layer::before {
+            content: '';
+            position: absolute;
+            top: -100%;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent, rgba(155,91,255,0.05), transparent);
+            transition: top 0.4s ease;
+        }
+
+        .arch-layer:hover::before {
+            top: 100%;
+        }
+
+        .arch-layer:hover {
+            transform: translateY(-5px);
+            border-color: var(--purple-main);
+            box-shadow: var(--shadow-soft);
+        }
+
+        .arch-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .arch-title {
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .arch-subtitle {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            position: relative;
+            z-index: 1;
+        }
+
+        .arch-arrow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--purple-main);
+            animation: arrowFlow 2s ease-in-out infinite;
+        }
+
+        @keyframes arrowFlow {
+            0%, 100% { transform: translateX(0) scale(1); }
+            50% { transform: translateX(5px) scale(1.2); }
+        }
+
+        .performance-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+
+        .metric-card {
+            background: linear-gradient(135deg, var(--purple-main), var(--purple-dark));
+            color: white;
+            padding: 2rem;
+            border-radius: var(--radius);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            animation: metricShine 2s ease-in-out infinite;
+        }
+
+        @keyframes metricShine {
+            0% { transform: translateX(-100%) translateY(-100%); }
+            100% { transform: translateX(100%) translateY(100%); }
+        }
+
+        .metric-number {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .deployment-section {
+            background: var(--bg-card);
+            border-radius: var(--radius);
+            border: 1px solid var(--border-soft);
+            box-shadow: var(--shadow-soft);
+            padding: 3rem;
+            margin: 4rem 0;
+        }
+
+        .deployment-title {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--purple-dark);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .deployment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .deployment-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: rgba(155,91,255,0.05);
+            border-radius: 12px;
+            border: 1px solid var(--border-soft);
+            transition: all 0.3s ease;
+        }
+
+        .deployment-item:hover {
+            background: rgba(155,91,255,0.1);
+            transform: translateY(-4px);
+            border-color: var(--purple-main);
+        }
+
+        .deployment-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--gradient-main);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: white;
+            flex-shrink: 0;
+        }
+
+        .deployment-content h4 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--purple-dark);
+            margin-bottom: 0.5rem;
+        }
+
+        .deployment-content p {
+            color: var(--text-secondary);
+            line-height: 1.5;
+            font-size: 0.95rem;
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .tech-title {
+                font-size: 2.5rem;
+            }
+            
+            .tech-categories {
+                grid-template-columns: 1fr;
+            }
+            
+            .architecture-diagram {
+                grid-template-columns: 1fr;
+                grid-template-rows: auto;
+                gap: 1rem;
+            }
+            
+            .arch-arrow {
+                transform: rotate(90deg);
+            }
+            
+            .performance-metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation">
+        <div class="floating-orb orb-1"></div>
+        <div class="floating-orb orb-2"></div>
+        <div class="floating-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">🚦 SmartTraffic AI</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="problem.html">Problem</a></li>
+                <li><a href="solution.html">Solution</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="tech.html" class="active">Tech Stack</a></li>
+                <li><a href="demo.html">Demo</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="tech-container">
+        <div class="container">
+            <!-- Hero Section -->
+            <div class="hero-tech">
+                <div class="tech-badge">
+                    <div class="code-pulse"></div>
+                    Modern Technology Stack
+                </div>
+                <h1 class="tech-title">⚙️ Powering Innovation</h1>
+                <p class="tech-subtitle">Built with cutting-edge technologies and industry best practices, SmartTraffic AI leverages the most reliable and scalable solutions for real-time traffic management.</p>
+            </div>
+
+            <!-- Technology Categories -->
+            <div class="tech-categories">
+                <!-- Backend -->
+                <div class="tech-category category-backend">
+                    <div class="category-header">
+                        <div class="category-icon">🔧</div>
+                        <h3 class="category-title">Backend Infrastructure</h3>
+                        <p class="category-subtitle">Robust server-side architecture handling real-time processing and AI decision making</p>
+                    </div>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <div class="tech-logo tech-python">🐍</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Python 3.9+</div>
+                                <div class="tech-description">Core AI logic, data processing, and adaptive algorithms</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-flask">⚡</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Flask Framework</div>
+                                <div class="tech-description">RESTful API endpoints and web server infrastructure</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-threading">🧵</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Threading</div>
+                                <div class="tech-description">Concurrent processing for real-time traffic analysis</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-json">📄</div>
+                            <div class="tech-info">
+                                <div class="tech-name">JSON Data Storage</div>
+                                <div class="tech-description">Lightweight data persistence and configuration management</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="tech-category category-frontend">
+                    <div class="category-header">
+                        <div class="category-icon">🎨</div>
+                        <h3 class="category-title">Frontend Interface</h3>
+                        <p class="category-subtitle">Modern web technologies delivering responsive and interactive user experiences</p>
+                    </div>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <div class="tech-logo tech-html">📋</div>
+                            <div class="tech-info">
+                                <div class="tech-name">HTML5</div>
+                                <div class="tech-description">Semantic markup and modern web standards</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-css">🎭</div>
+                            <div class="tech-info">
+                                <div class="tech-name">CSS3</div>
+                                <div class="tech-description">Advanced styling, animations, and responsive design</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-js">⚡</div>
+                            <div class="tech-info">
+                                <div class="tech-name">JavaScript ES6+</div>
+                                <div class="tech-description">Interactive controls, real-time updates, and dynamic content</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-json">🔄</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Fetch API</div>
+                                <div class="tech-description">Asynchronous data communication with backend services</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI & Logic -->
+                <div class="tech-category category-ai">
+                    <div class="category-header">
+                        <div class="category-icon">🧠</div>
+                        <h3 class="category-title">AI Intelligence</h3>
+                        <p class="category-subtitle">Advanced algorithms and machine learning for intelligent traffic optimization</p>
+                    </div>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <div class="tech-logo tech-ai">🤖</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Adaptive Algorithms</div>
+                                <div class="tech-description">Dynamic signal timing based on real-time traffic patterns</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-ai">🚨</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Emergency Priority Logic</div>
+                                <div class="tech-description">Instant path clearing for emergency vehicles</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-ai">📈</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Pattern Recognition</div>
+                                <div class="tech-description">Rush hour detection and congestion prediction</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-ai">🔄</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Multi-Intersection Coordination</div>
+                                <div class="tech-description">Network-wide optimization and green wave management</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Data Management -->
+                <div class="tech-category category-data">
+                    <div class="category-header">
+                        <div class="category-icon">📊</div>
+                        <h3 class="category-title">Data Management</h3>
+                        <p class="category-subtitle">Efficient data handling, storage, and real-time processing capabilities</p>
+                    </div>
+                    <div class="tech-list">
+                        <div class="tech-item">
+                            <div class="tech-logo tech-json">💾</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Real-time Data Streams</div>
+                                <div class="tech-description">Continuous traffic monitoring and data collection</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-json">📋</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Historical Analytics</div>
+                                <div class="tech-description">Traffic pattern analysis and performance metrics</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-json">⚙️</div>
+                            <div class="tech-info">
+                                <div class="tech-name">Configuration Management</div>
+                                <div class="tech-description">Dynamic system settings and parameter adjustment</div>
+                            </div>
+                        </div>
+                        <div class="tech-item">
+                            <div class="tech-logo tech-json">🔐</div>
+                            <div class="tech-info">
+                                <div class="tech-name">State Persistence</div>
+                                <div class="tech-description">System state backup and recovery mechanisms</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- System Architecture -->
+            <div class="architecture-section">
+                <h2 class="architecture-title">🏗️ System Architecture</h2>
+                <div class="architecture-diagram">
+                    <div class="arch-layer">
+                        <span class="arch-icon">👁️</span>
+                        <div class="arch-title">Sensors</div>
+                        <div class="arch-subtitle">Traffic Detection</div>
+                    </div>
+                    
+                    <div class="arch-arrow">→</div>
+                    
+                    <div class="arch-layer">
+                        <span class="arch-icon">🧠</span>
+                        <div class="arch-title">AI Engine</div>
+                        <div class="arch-subtitle">Decision Making</div>
+                    </div>
+                    
+                    <div class="arch-arrow">→</div>
+                    
+                    <div class="arch-layer">
+                        <span class="arch-icon">🚦</span>
+                        <div class="arch-title">Signal Control</div>
+                        <div class="arch-subtitle">Light Management</div>
+                    </div>
+                </div>
+                
+                <!-- Performance Metrics -->
+                <div class="performance-metrics">
+                    <div class="metric-card">
+                        <div class="metric-number">2s</div>
+                        <div class="metric-label">Response Time</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">99.9%</div>
+                        <div class="metric-label">Uptime</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">50+</div>
+                        <div class="metric-label">Intersections</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-number">24/7</div>
+                        <div class="metric-label">Monitoring</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deployment & Infrastructure -->
+            <div class="deployment-section">
+                <h2 class="deployment-title">🚀 Deployment & Infrastructure</h2>
+                <div class="deployment-grid">
+                    <div class="deployment-item">
+                        <div class="deployment-icon">☁️</div>
+                        <div class="deployment-content">
+                            <h4>Cloud-Ready Architecture</h4>
+                            <p>Designed for scalable deployment across AWS, Azure, or Google Cloud platforms with auto-scaling capabilities.</p>
+                        </div>
+                    </div>
+                    <div class="deployment-item">
+                        <div class="deployment-icon">🐳</div>
+                        <div class="deployment-content">
+                            <h4>Container Support</h4>
+                            <p>Docker-compatible deployment for consistent environments and easy scaling across different infrastructure setups.</p>
+                        </div>
+                    </div>
+                    <div class="deployment-item">
+                        <div class="deployment-icon">🔄</div>
+                        <div class="deployment-content">
+                            <h4>Real-time Processing</h4>
+                            <p>Sub-second response times with concurrent processing capabilities handling thousands of vehicles simultaneously.</p>
+                        </div>
+                    </div>
+                    <div class="deployment-item">
+                        <div class="deployment-icon">🔒</div>
+                        <div class="deployment-content">
+                            <h4>Security & Reliability</h4>
+                            <p>Enterprise-grade security with encrypted communications, backup systems, and failover mechanisms.</p>
+                        </div>
+                    </div>
+                    <div class="deployment-item">
+                        <div class="deployment-icon">📡</div>
+                        <div class="deployment-content">
+                            <h4>API Integration</h4>
+                            <p>RESTful APIs for easy integration with existing traffic management systems and third-party applications.</p>
+                        </div>
+                    </div>
+                    <div class="deployment-item">
+                        <div class="deployment-icon">📊</div>
+                        <div class="deployment-content">
+                            <h4>Analytics Dashboard</h4>
+                            <p>Comprehensive monitoring and reporting tools for traffic analysis, system performance, and optimization insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="static/script.js"></script>
+    <script>
+        // Animate tech items on scroll
+        const techObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.transform = 'translateX(0)';
+                        entry.target.style.opacity = '1';
+                    }, index * 100);
+                }
+            });
+        });
+
+        document.querySelectorAll('.tech-item').forEach(item => {
+            item.style.transform = 'translateX(-30px)';
+            item.style.opacity = '0';
+            item.style.transition = 'all 0.6s ease';
+            techObserver.observe(item);
+        });
+
+        // Animate architecture layers
+        const archObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.style.transform = 'translateY(0)';
+                        entry.target.style.opacity = '1';
+                    }, index * 300);
+                }
+            });
+        });
+
+        document.querySelectorAll('.arch-layer').forEach(layer => {
+            layer.style.transform = 'translateY(50px)';
+            layer.style.opacity = '0';
+            layer.style.transition = 'all 0.6s ease';
+            archObserver.observe(layer);
+        });
+    </script>
+</body>
+</html>
